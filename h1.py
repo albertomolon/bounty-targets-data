@@ -3,22 +3,26 @@
 import json
 import sys
 
+PROGRAM_FILE = "in_scope/h1-program.txt"
+APK_FILE = "in_scope/h1-apk.txt"
+URL_FILE = "in_scope/h1-url.txt"
+
 
 def handle_targets_scopes(filedata, asset):
 	for program in filedata:
 		targets = program['targets']
 		in_scope = targets['in_scope']
 		if in_scope == []:
-			write_file_content("in_scope/h1-program.txt", f"{program['url']}\n")
+			write_file_content(PROGRAM_FILE, f"{program['url']}\n")
 		else:
 			if asset == 'apk':
 				for item in in_scope:
 					if item['asset_type'] == 'GOOGLE_PLAY_APP_ID' or item['asset_type'] == 'OTHER_APK':
-						write_file_content("in_scope/h1-apk.txt", f"{program['url']:<45}\t-->\t{item['asset_identifier']}\n")
+						write_file_content(APK_FILE, f"{program['url']:<45}\t-->\t{item['asset_identifier']}\n")
 			elif asset == 'url':
 				for item in in_scope:
 					if item['asset_type'] == 'URL':
-						write_file_content("in_scope/h1-url.txt", f"{program['url']:<45}\t-->\t{item['asset_identifier']}\n")
+						write_file_content(URL_FILE, f"{program['url']:<45}\t-->\t{item['asset_identifier']}\n")
 			else:
 				pass
 
