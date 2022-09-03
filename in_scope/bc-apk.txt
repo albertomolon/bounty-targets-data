@@ -1,0 +1,100 @@
+https://bugcrowd.com/acorns                  	-->	Acorns for Android
+https://bugcrowd.com/anz-vdp                 	-->	ANZ Australia Android App
+https://bugcrowd.com/anz-vdp                 	-->	ANZ Plus Android App
+https://bugcrowd.com/arlo                    	-->	Arlo Android App
+https://bugcrowd.com/asana                   	-->	Asana Android app
+https://bugcrowd.com/atlassian               	-->	Confluence Cloud Mobile App for Android
+https://bugcrowd.com/atlassian               	-->	Confluence Server Mobile App for Android
+https://bugcrowd.com/atlassian               	-->	Jira Cloud Mobile App for Android
+https://bugcrowd.com/atlassian               	-->	Jira Server Mobile App for Android
+https://bugcrowd.com/backblaze               	-->	Backblaze Android mobile application
+https://bugcrowd.com/binance                 	-->	Binance Mobile Application for Android
+https://bugcrowd.com/binance                 	-->	Trustwallet Android App
+https://bugcrowd.com/bluejeans               	-->	BlueJeans Android Application
+https://bugcrowd.com/caffeine                	-->	Caffeine Android Application	
+https://bugcrowd.com/canva                   	-->	Canva (Android)
+https://bugcrowd.com/cashapp                 	-->	Cash App Mobile Application for Android
+https://bugcrowd.com/ciscomeraki             	-->	Cisco Meraki Dashboard Mobile Application (iOS and Android)
+https://bugcrowd.com/coca-cola               	-->	Coca-Cola Android App
+https://bugcrowd.com/coindcx-og              	-->	CoinDCX: Bitcoin & Crypto Investment app
+https://bugcrowd.com/coindcx-og              	-->	Trading App For Advanced Traders: CoinDCX Pro
+https://bugcrowd.com/comcastvdp              	-->	Mobile Apps	iOS and Android
+https://bugcrowd.com/concur                  	-->	Tripit Mobile Application: Android (https://play.google.com/store/apps/details?id=com.tripit)
+https://bugcrowd.com/constantcontact         	-->	Constant Contact mobile applications [iOS and Android]
+https://bugcrowd.com/creditkarma             	-->	Credit Karma Android Mobile Application
+https://bugcrowd.com/cybrary                 	-->	Android App
+https://bugcrowd.com/dickssportinggoods      	-->	Android App:  Dicks Sporting Goods
+https://bugcrowd.com/eero                    	-->	eero Android Mobile Application
+https://bugcrowd.com/electroneum             	-->	Electroneum Android App
+https://bugcrowd.com/etsy                    	-->	Etsy Mobile Application (Android)
+https://bugcrowd.com/expressvpn              	-->	ExpressVPN Android application
+https://bugcrowd.com/gorillas-vdp            	-->	Gorillas Android Application
+https://bugcrowd.com/gusto-vdp               	-->	Android App:  Gusto Wallet
+https://bugcrowd.com/healthifyme             	-->	https://play.google.com/store/apps/details?id=com.healthifyme.basic&hl=en
+https://bugcrowd.com/hubspot                 	-->	HubSpot Mobile Application: Android
+https://bugcrowd.com/ibotta                  	-->	http://market.android.com/details?id=com.ibotta.android
+https://bugcrowd.com/ifood-og                	-->	iFood Customer Android Application
+https://bugcrowd.com/indeed                  	-->	https://play.google.com/store/apps/details?id=com.indeed.android.jobsearch
+https://bugcrowd.com/intercom                	-->	Android SDK
+https://bugcrowd.com/irobot                  	-->	https://play.google.com/store/apps/details?id=com.irobot.home
+https://bugcrowd.com/jora                    	-->	https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US	
+https://bugcrowd.com/jumboprivacy            	-->	JumboPrivacy Android Application
+https://bugcrowd.com/keepersecurity          	-->	Keeper for Android
+https://bugcrowd.com/keepersecurity          	-->	KeeperChat for Android
+https://bugcrowd.com/lastpass                	-->	Android mobile app
+https://bugcrowd.com/lastpass                	-->	LastPass Authenticator Android app
+https://bugcrowd.com/lbrands-bbw-vdp         	-->	BBW Android app
+https://bugcrowd.com/lbrands-vs-vdp          	-->	Pink Nation Android app
+https://bugcrowd.com/lbrands-vs-vdp          	-->	Victoria's Secret Android app
+https://bugcrowd.com/lime                    	-->	https://play.google.com/store/apps/details?id=com.limebike
+https://bugcrowd.com/mastercard-vdp-ext      	-->	Mastercard Receipt Management Android Application
+https://bugcrowd.com/medialab-vdp            	-->	Worldstar Hip Hop Android App
+https://bugcrowd.com/monash-mbb              	-->	Monash Study Android app
+https://bugcrowd.com/moneytreekkog           	-->	Moneytree staging Android Mobile Application (see below)
+https://bugcrowd.com/netflix                 	-->	Netflix Mobile Application for Android
+https://bugcrowd.com/netgear                 	-->	Insight Android App
+https://bugcrowd.com/netgear                 	-->	Nighthawk Android App
+https://bugcrowd.com/netgear                 	-->	Orbi Android App 
+https://bugcrowd.com/nicehash-og             	-->	Android Application
+https://bugcrowd.com/okta                    	-->	Okta MDM (Android)
+https://bugcrowd.com/okta                    	-->	Okta Verify (Android)
+https://bugcrowd.com/opera                   	-->	Opera Mini
+https://bugcrowd.com/opera                   	-->	Opera for Android 
+https://bugcrowd.com/opsgenie                	-->	Opsgenie (Android)
+https://bugcrowd.com/ostrom-vdp              	-->	Ostrom Android application
+https://bugcrowd.com/overstockvdp            	-->	Overstock Android Mobile App
+https://bugcrowd.com/phemex                  	-->	Phemex Android app
+https://bugcrowd.com/pinterest               	-->	Pinterest Android Mobile Application
+https://bugcrowd.com/quizlet                 	-->	Android
+https://bugcrowd.com/recroom-og              	-->	Android
+https://bugcrowd.com/seek                    	-->	SEEK mobile app for Android
+https://bugcrowd.com/skyscanner              	-->	Skyscanner Android App
+https://bugcrowd.com/smartthings             	-->	SmartThings Mobile Application for Android
+https://bugcrowd.com/soundcloud              	-->	SoundCloud Android app
+https://bugcrowd.com/sproutsocial            	-->	Sprout Social for Android
+https://bugcrowd.com/square                  	-->	Square Point of Sale Mobile Application for Android
+https://bugcrowd.com/statefarm-esf           	-->	State Farm Drive Safe and Save Mobile Application (Android)
+https://bugcrowd.com/statefarm-esf           	-->	State Farm Steer Clear Mobile Application (Android)
+https://bugcrowd.com/stellantis              	-->	https://play.google.com/store/apps/details?id=com.acn.uc&hl=en
+https://bugcrowd.com/stellantis              	-->	https://play.google.com/store/apps/details?id=com.fcagroup.us.uconnect
+https://bugcrowd.com/step-public             	-->	Step Android App
+https://bugcrowd.com/takeaway                	-->	https://play.google.com/store/apps/details?id=com.yopeso.lieferando&hl=en_US
+https://bugcrowd.com/telefonicavdp           	-->	Mein O2 Android Application
+https://bugcrowd.com/telefonicavdp           	-->	O2 Business Android Application
+https://bugcrowd.com/telefonicavdp           	-->	PartOS Android Application 
+https://bugcrowd.com/tesla                   	-->	Official Tesla Android apps
+https://bugcrowd.com/trello                  	-->	Trello Mobile App for Android
+https://bugcrowd.com/tripadvisor-bb-og       	-->	TripAdvisor Android App
+https://bugcrowd.com/twilio                  	-->	Authy Android App
+https://bugcrowd.com/underarmour             	-->	MapMyFitness  Android
+https://bugcrowd.com/underarmour             	-->	UA Shop Android
+https://bugcrowd.com/united-vdp              	-->	MileagePlus X App for Android
+https://bugcrowd.com/united-vdp              	-->	United Mobile App for Android
+https://bugcrowd.com/upwork                  	-->	Upwork - Android Application
+https://bugcrowd.com/usaa                    	-->	USAA Mobile Application for Android
+https://bugcrowd.com/viator                  	-->	Android Viator Tours & Activities App
+https://bugcrowd.com/westernunion            	-->	Western Union Android app (link below)
+https://bugcrowd.com/wise                    	-->	Latest version of Wise Android App
+https://bugcrowd.com/xfinity-home            	-->	Xfinity Android mobile app
+https://bugcrowd.com/xfinity-home            	-->	Xfinity Home Android mobile app
+https://bugcrowd.com/zola-vdp                	-->	Zola Android App
