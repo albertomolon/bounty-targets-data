@@ -142,6 +142,21 @@ type ActivitiesAssetCreated implements ActivityInterface & Node {
 }
 
 """
+An Activities::AssetSubmissionRejected activity for an organization
+"""
+type ActivitiesAssetSubmissionRejected implements ActivityInterface & Node {
+  _id: ID!
+  actor: ActorUnion
+  created_at: DateTime!
+  i_can_edit: Boolean!
+  i_can_flag: Boolean!
+  id: ID!
+  internal: Boolean
+  message: String
+  updated_at: DateTime!
+}
+
+"""
 A Activities::BountyAwarded activity for a report
 """
 type ActivitiesBountyAwarded implements ActivityInterface & Node & ReportActivityInterface {
@@ -2125,7 +2140,7 @@ enum ActivityTypes {
 """
 Activities can be of multiple types
 """
-union ActivityUnion = ActivitiesAddedToPentest | ActivitiesAgreedOnGoingPublic | ActivitiesAssetCreated | ActivitiesBountyAwarded | ActivitiesBountyRecalled | ActivitiesBountyScheduled | ActivitiesBountySuggested | ActivitiesBugCloned | ActivitiesBugDuplicate | ActivitiesBugFiled | ActivitiesBugInactive | ActivitiesBugInformative | ActivitiesBugNeedsMoreInfo | ActivitiesBugNew | ActivitiesBugNotApplicable | ActivitiesBugPendingProgramReview | ActivitiesBugPriorityChanged | ActivitiesBugReopened | ActivitiesBugResolved | ActivitiesBugRetesting | ActivitiesBugSpam | ActivitiesBugTriaged | ActivitiesCancelledDisclosureRequest | ActivitiesChangedCampaign | ActivitiesChangedScope | ActivitiesChecklistCheckClaimed | ActivitiesChecklistCheckExpired | ActivitiesChecklistCheckReleased | ActivitiesChecklistCheckResponseApproved | ActivitiesChecklistCheckResponseComment | ActivitiesChecklistCheckResponseCreated | ActivitiesChecklistCheckResponseRejected | ActivitiesChecklistCheckResponseUpdated | ActivitiesChecklistCheckRevoked | ActivitiesChecklistExpirationNotification | ActivitiesChecklistStarted | ActivitiesComment | ActivitiesCommentsClosed | ActivitiesCveIdAdded | ActivitiesDraftStarted | ActivitiesExternalAdvisoryAdded | ActivitiesExternalUserInvitationCancelled | ActivitiesExternalUserInvited | ActivitiesExternalUserJoined | ActivitiesExternalUserRemoved | ActivitiesGroupAssignedToBug | ActivitiesHackerRequestedMediation | ActivitiesManuallyDisclosed | ActivitiesMediationRequested | ActivitiesNobodyAssignedToBug | ActivitiesNotEligibleForBounty | ActivitiesOrganizationAssetsBulkArchived | ActivitiesPentestCheckAssigned | ActivitiesPentestCheckCompleted | ActivitiesPentestCheckUnassigned | ActivitiesPentestCheckUpdated | ActivitiesPentestPublished | ActivitiesPentestStarted | ActivitiesPentesterAwarded | ActivitiesProgramHackerJoined | ActivitiesProgramHackerLeft | ActivitiesProgramInactive | ActivitiesProgramStructuredScopesBulkUpdated | ActivitiesReassignedToTeam | ActivitiesReferenceIdAdded | ActivitiesRemovedFromPentest | ActivitiesReportBecamePublic | ActivitiesReportCollaboratorInvited | ActivitiesReportCollaboratorJoined | ActivitiesReportCustomFieldValueUpdated | ActivitiesReportOrganizationInboxesUpdated | ActivitiesReportRemediationGuidanceUpdated | ActivitiesReportRetestApproved | ActivitiesReportRetestCanceled | ActivitiesReportRetestRejected | ActivitiesReportSeverityUpdated | ActivitiesReportTitleUpdated | ActivitiesReportTriageSummaryCreated | ActivitiesReportUndisclosed | ActivitiesReportVulnerabilityTypesUpdated | ActivitiesRetestUserExpired | ActivitiesSwagAwarded | ActivitiesTeamBountyTableUpdated | ActivitiesTeamPolicyUpdated | ActivitiesTeamPostCreated | ActivitiesTeamPublished | ActivitiesTeamStructuredScopeUpdated | ActivitiesUserAssignedToBug | ActivitiesUserBannedFromProgram | ActivitiesUserCompletedRetest | ActivitiesUserJoined | ActivitiesUserLeftRetest
+union ActivityUnion = ActivitiesAddedToPentest | ActivitiesAgreedOnGoingPublic | ActivitiesAssetCreated | ActivitiesAssetSubmissionRejected | ActivitiesBountyAwarded | ActivitiesBountyRecalled | ActivitiesBountyScheduled | ActivitiesBountySuggested | ActivitiesBugCloned | ActivitiesBugDuplicate | ActivitiesBugFiled | ActivitiesBugInactive | ActivitiesBugInformative | ActivitiesBugNeedsMoreInfo | ActivitiesBugNew | ActivitiesBugNotApplicable | ActivitiesBugPendingProgramReview | ActivitiesBugPriorityChanged | ActivitiesBugReopened | ActivitiesBugResolved | ActivitiesBugRetesting | ActivitiesBugSpam | ActivitiesBugTriaged | ActivitiesCancelledDisclosureRequest | ActivitiesChangedCampaign | ActivitiesChangedScope | ActivitiesChecklistCheckClaimed | ActivitiesChecklistCheckExpired | ActivitiesChecklistCheckReleased | ActivitiesChecklistCheckResponseApproved | ActivitiesChecklistCheckResponseComment | ActivitiesChecklistCheckResponseCreated | ActivitiesChecklistCheckResponseRejected | ActivitiesChecklistCheckResponseUpdated | ActivitiesChecklistCheckRevoked | ActivitiesChecklistExpirationNotification | ActivitiesChecklistStarted | ActivitiesComment | ActivitiesCommentsClosed | ActivitiesCveIdAdded | ActivitiesDraftStarted | ActivitiesExternalAdvisoryAdded | ActivitiesExternalUserInvitationCancelled | ActivitiesExternalUserInvited | ActivitiesExternalUserJoined | ActivitiesExternalUserRemoved | ActivitiesGroupAssignedToBug | ActivitiesHackerRequestedMediation | ActivitiesManuallyDisclosed | ActivitiesMediationRequested | ActivitiesNobodyAssignedToBug | ActivitiesNotEligibleForBounty | ActivitiesOrganizationAssetsBulkArchived | ActivitiesPentestCheckAssigned | ActivitiesPentestCheckCompleted | ActivitiesPentestCheckUnassigned | ActivitiesPentestCheckUpdated | ActivitiesPentestPublished | ActivitiesPentestStarted | ActivitiesPentesterAwarded | ActivitiesProgramHackerJoined | ActivitiesProgramHackerLeft | ActivitiesProgramInactive | ActivitiesProgramStructuredScopesBulkUpdated | ActivitiesReassignedToTeam | ActivitiesReferenceIdAdded | ActivitiesRemovedFromPentest | ActivitiesReportBecamePublic | ActivitiesReportCollaboratorInvited | ActivitiesReportCollaboratorJoined | ActivitiesReportCustomFieldValueUpdated | ActivitiesReportOrganizationInboxesUpdated | ActivitiesReportRemediationGuidanceUpdated | ActivitiesReportRetestApproved | ActivitiesReportRetestCanceled | ActivitiesReportRetestRejected | ActivitiesReportSeverityUpdated | ActivitiesReportTitleUpdated | ActivitiesReportTriageSummaryCreated | ActivitiesReportUndisclosed | ActivitiesReportVulnerabilityTypesUpdated | ActivitiesRetestUserExpired | ActivitiesSwagAwarded | ActivitiesTeamBountyTableUpdated | ActivitiesTeamPolicyUpdated | ActivitiesTeamPostCreated | ActivitiesTeamPublished | ActivitiesTeamStructuredScopeUpdated | ActivitiesUserAssignedToBug | ActivitiesUserBannedFromProgram | ActivitiesUserCompletedRetest | ActivitiesUserJoined | ActivitiesUserLeftRetest
 
 """
 An edge in a connection.
@@ -2446,7 +2461,6 @@ enum AnalyticsDirectionEnum {
 
 enum AnalyticsFromEnum {
   dim_invitations
-  dim_report_activities
   dim_reports
   dim_teams
   fct_invitation_cohorts
@@ -2455,6 +2469,7 @@ enum AnalyticsFromEnum {
   fixture_quarters
   fixture_report_states
   fixture_severity_ratings
+  fixture_weeks
   fixture_years
 }
 
@@ -2518,6 +2533,7 @@ enum AnalyticsSelectFieldEnum {
   dim_invitations__created_at
   dim_invitations__created_at_month
   dim_invitations__created_at_quarter
+  dim_invitations__created_at_week
   dim_invitations__created_at_year
   dim_invitations__invitation_id
   dim_invitations__is_accepted
@@ -2525,18 +2541,6 @@ enum AnalyticsSelectFieldEnum {
   dim_invitations__organization_id
   dim_invitations__team_id
   dim_invitations__user_id
-  dim_report_activities__activity_event
-  dim_report_activities__activity_id
-  dim_report_activities__created_at
-  dim_report_activities__is_created_at_last_180_days
-  dim_report_activities__is_created_at_last_90_days
-  dim_report_activities__is_created_at_prior_90_days
-  dim_report_activities__is_triaged
-  dim_report_activities__is_updated
-  dim_report_activities__organization_id
-  dim_report_activities__report_id
-  dim_report_activities__team_id
-  dim_report_activities__updated_at
   dim_reports__asset_id
   dim_reports__asset_identifier
   dim_reports__asset_type
@@ -2544,11 +2548,13 @@ enum AnalyticsSelectFieldEnum {
   dim_reports__bounty_awarded_at_month
   dim_reports__bounty_awarded_at_num_days_since
   dim_reports__bounty_awarded_at_quarter
+  dim_reports__bounty_awarded_at_week
   dim_reports__bounty_awarded_at_year
   dim_reports__closed_at
   dim_reports__closed_at_month
   dim_reports__closed_at_num_days_since
   dim_reports__closed_at_quarter
+  dim_reports__closed_at_week
   dim_reports__closed_at_year
   dim_reports__cohort_invitation_id
   dim_reports__is_bounty_awarded_report
@@ -2592,6 +2598,7 @@ enum AnalyticsSelectFieldEnum {
   dim_reports__submitted_at_month
   dim_reports__submitted_at_num_days_since
   dim_reports__submitted_at_quarter
+  dim_reports__submitted_at_week
   dim_reports__submitted_at_year
   dim_reports__team_handle
   dim_reports__team_id
@@ -2611,6 +2618,7 @@ enum AnalyticsSelectFieldEnum {
   fct_invitation_cohorts__cohort_created_at
   fct_invitation_cohorts__cohort_created_at_month
   fct_invitation_cohorts__cohort_created_at_quarter
+  fct_invitation_cohorts__cohort_created_at_week
   fct_invitation_cohorts__cohort_created_at_year
   fct_invitation_cohorts__cohort_id
   fct_invitation_cohorts__num_users
@@ -2637,6 +2645,9 @@ enum AnalyticsSelectFieldEnum {
   fixture_severity_ratings__label
   fixture_severity_ratings__num_index
   fixture_severity_ratings__severity_rating
+  fixture_weeks__end_at
+  fixture_weeks__start_at
+  fixture_weeks__week
   fixture_years__end_at
   fixture_years__start_at
   fixture_years__year
@@ -3612,13 +3623,46 @@ interface AssetSubmissionInterface {
   confidentiality_requirement: SeveritySecurityRequirementEnum
   created_at: DateTime!
   description: String
+  display_name: String
   id: ID!
   identifier: String!
   integrity_requirement: SeveritySecurityRequirementEnum
   max_severity: SeverityRatingEnum
   organization: Organization
-  status: HackerAssetStatusEnum
+  status: AssetSubmissionStatusEnum
   updated_at: DateTime!
+}
+
+"""
+Statuses a hacker asset can have
+"""
+enum AssetSubmissionStatusEnum {
+  accepted
+  duplicate
+  in_review
+  rejected
+}
+
+"""
+Statuses a hacker asset can have
+"""
+enum AssetSubmissionStatusEnumInput {
+  accepted
+  duplicate
+  in_review
+  rejected
+}
+
+input AssetSubmissionStatusEnumInputPredicateInput {
+  _eq: AssetSubmissionStatusEnumInput
+  _gt: AssetSubmissionStatusEnumInput
+  _gte: AssetSubmissionStatusEnumInput
+  _in: [AssetSubmissionStatusEnumInput]
+  _is_null: Boolean
+  _lt: AssetSubmissionStatusEnumInput
+  _lte: AssetSubmissionStatusEnumInput
+  _neq: AssetSubmissionStatusEnumInput
+  _nin: [AssetSubmissionStatusEnumInput]
 }
 
 """
@@ -5717,6 +5761,7 @@ input ClearTriageInboxItemsOwnershipInput {
   A unique identifier for the client performing the mutation.
   """
   clientMutationId: String
+  reason_for_change: String!
   triage_inbox_item_ids: [ID]!
 }
 
@@ -5750,6 +5795,7 @@ type ClearTriageInboxItemsOwnershipPayload implements MutationResult {
     last: Int
     types: [ErrorTypeEnum]
   ): ErrorConnection!
+  reason_for_change: String!
   triage_inbox_items: [TriageInboxItem]
   was_successful: Boolean!
 }
@@ -7686,16 +7732,13 @@ Autogenerated input type of CreateHackerAsset
 """
 input CreateHackerAssetInput {
   asset_type: HackerAssetTypeEnum!
-  availability_requirement: SeveritySecurityRequirementEnum
 
   """
   A unique identifier for the client performing the mutation.
   """
   clientMutationId: String
-  confidentiality_requirement: SeveritySecurityRequirementEnum
   description: String
   identifier: String!
-  integrity_requirement: SeveritySecurityRequirementEnum
   team_handle: String!
 }
 
@@ -8734,6 +8777,7 @@ input CreateOrganizationMemberGroupInput {
   organization_inbox_ids: [Int!]
   organization_member_ids: [Int!]
   permissions: [OrganizationPermissionsEnum!]!
+  team_eligibility_setting_id: ID
   team_ids: [Int!]
 }
 
@@ -14268,6 +14312,22 @@ input FilterOrderPredicateInput {
   _direction: FilterOrderDirectionEnum
 }
 
+input FiltersAssetSubmissionFilterInput {
+  _and: [FiltersAssetSubmissionFilterInput]
+  _not: FiltersAssetSubmissionFilterInput
+  _or: [FiltersAssetSubmissionFilterInput]
+  id: IntPredicateInput
+  identifier: StringPredicateInput
+  status: AssetSubmissionStatusEnumInputPredicateInput
+}
+
+input FiltersAssetSubmissionFilterOrder {
+  created_at: FilterOrderPredicateInput
+  id: FilterOrderPredicateInput
+  identifier: FilterOrderPredicateInput
+  status: FilterOrderPredicateInput
+}
+
 input FiltersAuditLogItemFilterInput {
   _and: [FiltersAuditLogItemFilterInput]
   _not: FiltersAuditLogItemFilterInput
@@ -14468,22 +14528,6 @@ input FiltersFollowedUserFilterInput {
   _or: [FiltersFollowedUserFilterInput]
   id: IntPredicateInput
   is_me: Boolean
-}
-
-input FiltersHackerAssetFilterInput {
-  _and: [FiltersHackerAssetFilterInput]
-  _not: FiltersHackerAssetFilterInput
-  _or: [FiltersHackerAssetFilterInput]
-  id: IntPredicateInput
-  identifier: StringPredicateInput
-  status: HackerAssetStatusEnumInputPredicateInput
-}
-
-input FiltersHackerAssetFilterOrder {
-  created_at: FilterOrderPredicateInput
-  id: FilterOrderPredicateInput
-  identifier: FilterOrderPredicateInput
-  status: FilterOrderPredicateInput
 }
 
 input FiltersHacktivityItemFilterInput {
@@ -15225,38 +15269,6 @@ type HackerApiCreateReportPayload implements MutationResult {
 }
 
 """
-Statuses a hacker asset can have
-"""
-enum HackerAssetStatusEnum {
-  accepted
-  duplicate
-  in_review
-  rejected
-}
-
-"""
-Statuses a hacker asset can have
-"""
-enum HackerAssetStatusEnumInput {
-  accepted
-  duplicate
-  in_review
-  rejected
-}
-
-input HackerAssetStatusEnumInputPredicateInput {
-  _eq: HackerAssetStatusEnumInput
-  _gt: HackerAssetStatusEnumInput
-  _gte: HackerAssetStatusEnumInput
-  _in: [HackerAssetStatusEnumInput]
-  _is_null: Boolean
-  _lt: HackerAssetStatusEnumInput
-  _lte: HackerAssetStatusEnumInput
-  _neq: HackerAssetStatusEnumInput
-  _nin: [HackerAssetStatusEnumInput]
-}
-
-"""
 A Hacker Asset Submission
 """
 type HackerAssetSubmission implements AssetSubmissionInterface & Node {
@@ -15266,12 +15278,13 @@ type HackerAssetSubmission implements AssetSubmissionInterface & Node {
   confidentiality_requirement: SeveritySecurityRequirementEnum
   created_at: DateTime!
   description: String
+  display_name: String
   id: ID!
   identifier: String!
   integrity_requirement: SeveritySecurityRequirementEnum
   max_severity: SeverityRatingEnum
   organization: Organization
-  status: HackerAssetStatusEnum
+  status: AssetSubmissionStatusEnum
   team: Team!
   updated_at: DateTime!
   user: User!
@@ -20293,8 +20306,8 @@ type Organization implements Node {
     Returns the last _n_ elements from the list.
     """
     last: Int
-    order_by: FiltersHackerAssetFilterOrder
-    where: FiltersHackerAssetFilterInput
+    order_by: FiltersAssetSubmissionFilterOrder
+    where: FiltersAssetSubmissionFilterInput
   ): AssetSubmissionConnection
   asset_types: [String]
   assets(
@@ -20350,6 +20363,7 @@ type Organization implements Node {
     size: Int
   ): SearchResultConnection
   available_organization_inboxes_count: Int
+  created_at: DateTime
   derived_pentests: [DerivedPentest]
   domains(
     """
@@ -20381,6 +20395,7 @@ type Organization implements Node {
   i_can_manage_organization_member_groups: Boolean!
   i_can_manage_organization_members: Boolean!
   i_can_view_organization_assets: Boolean!
+  i_can_view_organization_member_groups: Boolean!
   id: ID!
   name: String!
   organization_inboxes(
@@ -20590,6 +20605,7 @@ type Organization implements Node {
     where: FiltersTeamFilterInput
   ): TeamConnection
   tray_profile: TrayProfile
+  updated_at: DateTime
   users(
     """
     Returns the elements in the list that come after the specified cursor.
@@ -27824,12 +27840,13 @@ type ScannerAssetSubmission implements AssetSubmissionInterface & Node {
   confidentiality_requirement: SeveritySecurityRequirementEnum
   created_at: DateTime!
   description: String
+  display_name: String
   id: ID!
   identifier: String!
   integrity_requirement: SeveritySecurityRequirementEnum
   max_severity: SeverityRatingEnum
   organization: Organization
-  status: HackerAssetStatusEnum
+  status: AssetSubmissionStatusEnum
   updated_at: DateTime!
 }
 
@@ -40028,8 +40045,8 @@ type User implements Node & ResourceInterface {
     Returns the last _n_ elements from the list.
     """
     last: Int
-    order_by: FiltersHackerAssetFilterOrder
-    where: FiltersHackerAssetFilterInput
+    order_by: FiltersAssetSubmissionFilterOrder
+    where: FiltersAssetSubmissionFilterInput
   ): AssetSubmissionConnection
   assets(
     """
@@ -40384,6 +40401,29 @@ type User implements Node & ResourceInterface {
     last: Int
   ): NotificationDeliveryPreferenceConnection
   open_for_employment: Boolean
+  organizations(
+    """
+    Returns the elements in the list that come after the specified cursor.
+    """
+    after: String
+
+    """
+    Returns the elements in the list that come before the specified cursor.
+    """
+    before: String
+
+    """
+    Returns the first _n_ elements from the list.
+    """
+    first: Int
+
+    """
+    Returns the last _n_ elements from the list.
+    """
+    last: Int
+    order_by: FiltersOrganizationFilterOrder
+    where: FiltersOrganizationFilterInput
+  ): OrganizationConnection
   payments_user: PaymentsUserType
   payout_preferences: [PayoutPreferenceUnion]
   payouts(

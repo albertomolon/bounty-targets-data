@@ -1231,6 +1231,35 @@
     }
   },
   {
+    "id": "a78e0210-4de1-4ced-8895-48ac98c3166d",
+    "name": "Housing Application (huisvestingsapp)",
+    "company_handle": "kuleuven",
+    "handle": "huisvesting",
+    "url": "https://www.intigriti.com/programs/kuleuven/huisvesting/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "min_bounty": {
+      "value": 0.0,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 2500.0,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "url",
+          "endpoint": "https://www.kuleuven.be/sapredir/huisvesting",
+          "description": "!! You can create an account with [your @intigriti.me address](https://go.intigriti.com/intigritime) and name 'Intigriti Test' (as explained in the FAQ), but the **registration process** itself is **not in scope** for the bug bounty programme !!\n\nThe scope includes all assets that are reasonably related to the housing application app (except for authentication like login or registration process)."
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "id": "67d5a491-4baa-4565-bdc9-962bcd5f5ddd",
     "name": "Humo",
     "company_handle": "dpgm",
@@ -4559,7 +4588,7 @@
         {
           "type": "url",
           "endpoint": "app.workbox.dk",
-          "description": "**Dinero**\nDinero is an accounting software for sole traders and micro businesses based out of Denmark. Our only target group is danish companies and therefore the interface is in danish only.The application is a SaaS application hosted in the cloud and consists of a main application and a number of supportive microservices.\n\nSee the getting started document here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDinero-getting-started.pdf\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n\n"
+          "description": "**Dinero**\nDinero is an accounting software for sole traders and micro businesses based out of Denmark. Our only target group is danish companies and therefore the interface is in danish only.The application is a SaaS application hosted in the cloud and consists of a main application and a number of supportive microservices.\n\nSee the getting started document here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDinero-getting-started.pdf\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Getting access to Pro features as Free user.\n\n"
         },
         {
           "type": "url",
