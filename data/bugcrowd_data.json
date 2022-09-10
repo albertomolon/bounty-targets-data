@@ -501,6 +501,10 @@
       "in_scope": [
         {
           "type": "website",
+          "target": "*.Datasheet"
+        },
+        {
+          "type": "website",
           "target": "*.aepetsche.com"
         },
         {
@@ -4556,6 +4560,10 @@
         },
         {
           "type": "website",
+          "target": "https://*.alx.org"
+        },
+        {
+          "type": "website",
           "target": "https://*.apprenticeship.gov"
         },
         {
@@ -4573,6 +4581,10 @@
         {
           "type": "website",
           "target": "https://*.backtojobcorps.com"
+        },
+        {
+          "type": "website",
+          "target": "https://*.benefits.gov"
         },
         {
           "type": "website",
@@ -4705,10 +4717,6 @@
         {
           "type": "website",
           "target": "https://*.peatworks.org"
-        },
-        {
-          "type": "website",
-          "target": "https://*.sentinel.gov"
         },
         {
           "type": "website",
@@ -15932,40 +15940,6 @@
         {
           "type": "website",
           "target": "oauth.xfinity.com"
-        }
-      ]
-    }
-  },
-  {
-    "name": "Xfinity Opensource",
-    "url": "https://bugcrowd.com/xfinity-opensource",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "partial",
-    "max_payout": 3500,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "other",
-          "target": "https://github.com/andyperlitch/jsbn"
-        },
-        {
-          "type": "other",
-          "target": "https://github.com/garycourt/uri-js"
-        },
-        {
-          "type": "other",
-          "target": "https://github.com/kriskowal/asap "
-        },
-        {
-          "type": "other",
-          "target": "https://github.com/moment/moment"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "other",
-          "target": "https://github.com/comcast"
         }
       ]
     }
