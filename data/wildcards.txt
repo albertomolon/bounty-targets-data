@@ -529,6 +529,8 @@ popsicle.*
 *.united.com
 *.usbr.gov
 *.va.gov
+*.viator.com
+*.viatorinc.com
 *.networksolutions.com
 *.register.com
 *.web.com
@@ -654,6 +656,7 @@ xhomeapi-*.codebig2.net
 *starfirenetwork.com
 *wirtgen-group.com
 *.aktia.fi
+*.leafnow.com
 *.mtb.com
 *.trustnota.com
 *.wilmingtontrust.com
@@ -781,7 +784,6 @@ xhomeapi-*.codebig2.net
 *.jimdosite.com
 *.aig.com
 *.myretirementmanager.com
-*.travelguard.com
 *.jfrog.com
 *.jfrog.org
 *.finra.org
@@ -876,6 +878,15 @@ xhomeapi-*.codebig2.net
 *.kount.com
 *.kount.net
 *.mapcity.com
+*.paynet.us
+*.paynet.ca
+*.paynet.com
+*.paynet.credit
+*.paynetonline.us
+*.paynetonline.ca
+*.paynetonline.com
+*.paynetonline.site
+*.paynetonline.mobi
 *.talx.com
 *.wageverify.com
 *equifax.ca
@@ -1125,10 +1136,6 @@ www.paypal-*.com
 *.unibet.com
 *.unibet.fr
 *.vladcazino.ro
-*.cornershop.io
-*.cornershopapp.com
-*.superpal.com
-*.superpal.io
 *.berush.com
 *.myinsights.io
 *.prowly.com
@@ -1445,6 +1452,18 @@ onboarding-*.cloud.com
 *.stripe.com
 *.touchtechpayments.com
 *.payoneer.com
+*.album.link
+*.artist.link
+*.linktree-extensions.com
+*.linktree.com
+*.mylink.page
+*.odesli.co
+*.odesli.com
+*.playlist.link
+*.pods.link
+*.song.link
+*.songlink.io
+*.tr.ee
 *.clubhouse.com
 *.clubhouseapi.com
 *.joinclubhouse.com
@@ -1458,7 +1477,6 @@ onboarding-*.cloud.com
 *.lab.epam.com
 *.projects.epam.com
 *.sidefx.com
-*.forums.realm.io
 www.*mongodb.com
 *.ad.nl
 *.azena.com
@@ -1474,6 +1492,7 @@ www.*mongodb.com
 *.machina.markets
 *.demorgen.be
 *.volkskrant.nl
+*.vlaanderen.be
 *.das.eu
 *.dns.eu
 *.eurid.eu

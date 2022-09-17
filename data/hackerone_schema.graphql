@@ -2433,7 +2433,7 @@ type AllTimeReputationLeaderboardEntry implements LeaderboardEntryInterface & No
 input AnalyticsComplexInputType {
   boolean: Boolean
   from: String
-  null: Boolean
+  nil: Boolean
   number: Float
   numbers: [Float!]
   ref: AnalyticsSelectFieldEnum
@@ -2460,6 +2460,8 @@ enum AnalyticsDirectionEnum {
 }
 
 enum AnalyticsFromEnum {
+  dim_custom_field_attributes
+  dim_custom_field_values
   dim_invitations
   dim_reports
   dim_teams
@@ -2530,6 +2532,17 @@ input AnalyticsQueryInputType {
 }
 
 enum AnalyticsSelectFieldEnum {
+  dim_custom_field_attributes__configuration
+  dim_custom_field_attributes__custom_field_attribute_id
+  dim_custom_field_attributes__label
+  dim_custom_field_attributes__organization_id
+  dim_custom_field_attributes__team_id
+  dim_custom_field_attributes__type
+  dim_custom_field_values__custom_field_attribute_id
+  dim_custom_field_values__organization_id
+  dim_custom_field_values__report_id
+  dim_custom_field_values__team_id
+  dim_custom_field_values__value
   dim_invitations__created_at
   dim_invitations__created_at_month
   dim_invitations__created_at_quarter
@@ -2556,22 +2569,22 @@ enum AnalyticsSelectFieldEnum {
   dim_reports__closed_at_quarter
   dim_reports__closed_at_week
   dim_reports__closed_at_year
-  dim_reports__cohort_invitation_id
-  dim_reports__is_bounty_awarded_report
+  dim_reports__invitation_cohort_id
+  dim_reports__is_bounty_awarded
   dim_reports__is_imported
+  dim_reports__is_reporter_prior_submitted_at_last_14_days
+  dim_reports__is_reporter_prior_submitted_at_last_180_days
+  dim_reports__is_reporter_prior_submitted_at_last_30_days
+  dim_reports__is_reporter_prior_submitted_at_last_365_days
+  dim_reports__is_reporter_prior_submitted_at_last_60_days
+  dim_reports__is_reporter_prior_submitted_at_last_730_days
+  dim_reports__is_reporter_prior_submitted_at_last_7_days
+  dim_reports__is_reporter_prior_submitted_at_last_90_days
+  dim_reports__is_reporter_prior_submitted_at_prior_30_days
+  dim_reports__is_reporter_prior_submitted_at_prior_365_days
+  dim_reports__is_reporter_prior_submitted_at_prior_7_days
+  dim_reports__is_reporter_prior_submitted_at_prior_90_days
   dim_reports__is_resolved_report
-  dim_reports__is_returning_reporter_last_14_days
-  dim_reports__is_returning_reporter_last_180_days
-  dim_reports__is_returning_reporter_last_30_days
-  dim_reports__is_returning_reporter_last_365_days
-  dim_reports__is_returning_reporter_last_60_days
-  dim_reports__is_returning_reporter_last_730_days
-  dim_reports__is_returning_reporter_last_7_days
-  dim_reports__is_returning_reporter_last_90_days
-  dim_reports__is_returning_reporter_prior_30_days
-  dim_reports__is_returning_reporter_prior_365_days
-  dim_reports__is_returning_reporter_prior_7_days
-  dim_reports__is_returning_reporter_prior_90_days
   dim_reports__is_submitted_at_last_14_days
   dim_reports__is_submitted_at_last_180_days
   dim_reports__is_submitted_at_last_30_days
@@ -2585,7 +2598,6 @@ enum AnalyticsSelectFieldEnum {
   dim_reports__is_submitted_at_prior_7_days
   dim_reports__is_submitted_at_prior_90_days
   dim_reports__is_submitted_by_team_member
-  dim_reports__is_submitted_report
   dim_reports__is_triaged_report
   dim_reports__is_valid_report
   dim_reports__organization_id
@@ -2626,6 +2638,7 @@ enum AnalyticsSelectFieldEnum {
   fct_invitation_cohorts__num_users_viewed
   fct_invitation_cohorts__organization_id
   fct_invitation_cohorts__team_id
+  fct_platform_benchmarks__end_at
   fct_platform_benchmarks__interval
   fct_platform_benchmarks__is_forecast
   fct_platform_benchmarks__p25_submission_count
@@ -3240,6 +3253,66 @@ type AssetEdge {
 }
 
 """
+An Asset Enrichment Submission
+"""
+type AssetEnrichmentSubmission implements Node {
+  asm_tag: AsmTag
+  created_at: DateTime
+  description: String
+
+  """
+  ID of the object.
+  """
+  id: ID!
+  identifier: String
+  rejection_reason: String
+  status: String
+  team: Team
+  updated_at: DateTime
+  user: User
+}
+
+"""
+The connection type for AssetEnrichmentSubmission.
+"""
+type AssetEnrichmentSubmissionConnection {
+  """
+  A list of edges.
+  """
+  edges: [AssetEnrichmentSubmissionEdge]
+
+  """
+  A list of nodes.
+  """
+  nodes: [AssetEnrichmentSubmission]
+
+  """
+  Information to aid in pagination.
+  """
+  pageInfo: PageInfo!
+
+  """
+  Int
+  """
+  total_count: Int!
+}
+
+"""
+An edge in a connection.
+"""
+type AssetEnrichmentSubmissionEdge {
+  """
+  A cursor for use in pagination.
+  """
+  cursor: String!
+
+  """
+  The item at the end of the edge.
+  """
+  node: AssetEnrichmentSubmission
+}
+
+"""
 An AssetFeedback
 """
 type AssetFeedback implements Node & ResourceInterface {
@@ -3619,16 +3692,11 @@ A interface for the common fields on an Asset Submission
 interface AssetSubmissionInterface {
   _id: ID!
   asset_type: HackerAssetTypeEnum
-  availability_requirement: SeveritySecurityRequirementEnum
-  confidentiality_requirement: SeveritySecurityRequirementEnum
   created_at: DateTime!
   description: String
   display_name: String
   id: ID!
   identifier: String!
-  integrity_requirement: SeveritySecurityRequirementEnum
-  max_severity: SeverityRatingEnum
-  organization: Organization
   status: AssetSubmissionStatusEnum
   updated_at: DateTime!
 }
@@ -3663,6 +3731,14 @@ input AssetSubmissionStatusEnumInputPredicateInput {
   _lte: AssetSubmissionStatusEnumInput
   _neq: AssetSubmissionStatusEnumInput
   _nin: [AssetSubmissionStatusEnumInput]
+}
+
+"""
+Types an asset submission can have
+"""
+enum AssetSubmissionTypeEnum {
+  HackerAssetSubmission
+  ScannerAssetSubmission
 }
 
 """
@@ -6606,6 +6682,56 @@ Autogenerated return type of CreateAsmTag
 """
 type CreateAsmTagPayload implements MutationResult {
   asm_tag: AsmTag
+
+  """
+  A unique identifier for the client performing the mutation.
+  """
+  clientMutationId: String
+  errors(
+    """
+    Returns the elements in the list that come after the specified cursor.
+    """
+    after: String
+
+    """
+    Returns the elements in the list that come before the specified cursor.
+    """
+    before: String
+
+    """
+    Returns the first _n_ elements from the list.
+    """
+    first: Int
+
+    """
+    Returns the last _n_ elements from the list.
+    """
+    last: Int
+    types: [ErrorTypeEnum]
+  ): ErrorConnection!
+  was_successful: Boolean!
+}
+
+"""
+Autogenerated input type of CreateAssetEnrichmentSubmissions
+"""
+input CreateAssetEnrichmentSubmissionsInput {
+  asm_tag_ids: [Int!]!
+
+  """
+  A unique identifier for the client performing the mutation.
+  """
+  clientMutationId: String
+  description: String
+  identifier: String!
+  team_handle: String!
+}
+
+"""
+Autogenerated return type of CreateAssetEnrichmentSubmissions
+"""
+type CreateAssetEnrichmentSubmissionsPayload implements MutationResult {
+  asset_enrichment_submissions: [AssetEnrichmentSubmission!]
 
   """
   A unique identifier for the client performing the mutation.
@@ -14456,6 +14582,7 @@ input FiltersAssetSubmissionFilterInput {
   id: IntPredicateInput
   identifier: StringPredicateInput
   status: AssetSubmissionStatusEnumInputPredicateInput
+  type: AssetSubmissionTypeEnum
 }
 
 input FiltersAssetSubmissionFilterOrder {
@@ -15137,6 +15264,19 @@ input FiltersTriageSubscriptionFilterInput {
   is_active: Boolean
 }
 
+input FiltersUserAvailabilityFilterInput {
+  _and: [FiltersUserAvailabilityFilterInput]
+  _not: FiltersUserAvailabilityFilterInput
+  _or: [FiltersUserAvailabilityFilterInput]
+  available: BooleanPredicateInput
+  date: DateInputPredicateInput
+  id: IntPredicateInput
+}
+
+input FiltersUserAvailabilityFilterOrder {
+  id: FilterOrderPredicateInput
+}
+
 input FiltersUserFilterInput {
   _and: [FiltersUserFilterInput]
   _not: FiltersUserFilterInput
@@ -15427,16 +15567,11 @@ A Hacker Asset Submission
 type HackerAssetSubmission implements AssetSubmissionInterface & Node {
   _id: ID!
   asset_type: HackerAssetTypeEnum
-  availability_requirement: SeveritySecurityRequirementEnum
-  confidentiality_requirement: SeveritySecurityRequirementEnum
   created_at: DateTime!
   description: String
   display_name: String
   id: ID!
   identifier: String!
-  integrity_requirement: SeveritySecurityRequirementEnum
-  max_severity: SeverityRatingEnum
-  organization: Organization
   status: AssetSubmissionStatusEnum
   team: Team!
   updated_at: DateTime!
@@ -17522,7 +17657,8 @@ input MarkSwagAsSentInput {
   A unique identifier for the client performing the mutation.
   """
   clientMutationId: String
-  swag_id: String!
+  sent: Boolean!
+  swag_id: ID!
 }
 
 """
@@ -17884,6 +18020,12 @@ type Mutation implements Node {
     """
     input: CreateAsmTagCategoryInput!
   ): CreateAsmTagCategoryPayload!
+  createAssetEnrichmentSubmissions(
+    """
+    Parameters for CreateAssetEnrichmentSubmissions
+    """
+    input: CreateAssetEnrichmentSubmissionsInput!
+  ): CreateAssetEnrichmentSubmissionsPayload!
   createBounty(
     """
     Parameters for CreateBounty
@@ -19131,6 +19273,12 @@ type Mutation implements Node {
     """
     input: UpdateAssetDescriptionInput!
   ): UpdateAssetDescriptionPayload!
+  updateAssetIdentifier(
+    """
+    Parameters for UpdateAssetIdentifier
+    """
+    input: UpdateAssetIdentifierInput!
+  ): UpdateAssetIdentifierPayload!
   updateAssetOwner(
     """
     Parameters for UpdateAssetOwner
@@ -19701,6 +19849,12 @@ type Mutation implements Node {
     """
     input: UpdateTeamSuccessGoalsInput!
   ): UpdateTeamSuccessGoalsPayload!
+  updateTeamSwagSetting(
+    """
+    Parameters for UpdateTeamSwagSetting
+    """
+    input: UpdateTeamSwagSettingInput!
+  ): UpdateTeamSwagSettingPayload!
   updateTeamTargetSignal(
     """
     Parameters for UpdateTeamTargetSignal
@@ -20365,11 +20519,13 @@ type OpportunityDocument implements Node {
   campaign_id: Int
   campaign_start_date: DateTime
   campaign_type: String
+  credentials_set_up: Boolean
   currency: String
   database_id: Int!
   external_program_id: Int
   external_program_name: String
   first_response_time: Float
+  gold_standard: Int
   graphql_id: ID!
   handle: String!
   id: ID!
@@ -20455,6 +20611,27 @@ type Organization implements Node {
     last: Int
   ): AsmTagConnection
   assessments_consumption: [Hash!]
+  asset_enrichment_submissions(
+    """
+    Returns the elements in the list that come after the specified cursor.
+    """
+    after: String
+
+    """
+    Returns the elements in the list that come before the specified cursor.
+    """
+    before: String
+
+    """
+    Returns the first _n_ elements from the list.
+    """
+    first: Int
+
+    """
+    Returns the last _n_ elements from the list.
+    """
+    last: Int
+  ): AssetEnrichmentSubmissionConnection
   asset_statistics(period: AssetStatisticPeriodEnum!): AssetStatistics
   asset_submissions(
     """
@@ -20578,27 +20755,7 @@ type Organization implements Node {
     """
     last: Int
   ): DomainConnection
-  eligibility_settings(
-    """
-    Returns the elements in the list that come after the specified cursor.
-    """
-    after: String
-
-    """
-    Returns the elements in the list that come before the specified cursor.
-    """
-    before: String
-
-    """
-    Returns the first _n_ elements from the list.
-    """
-    first: Int
-
-    """
-    Returns the last _n_ elements from the list.
-    """
-    last: Int
-  ): TeamMemberEligibilitySettings
+  eligibility_settings: [TeamMemberEligibilitySettings!]
   features: [Feature]
   handle: String!
   i_can_manage_organization_api_tokens: Boolean!
@@ -23361,6 +23518,7 @@ type ProductEdition implements Node {
   hacker_invitations_enabled: Boolean!
   id: ID!
   saas_deal: Boolean!
+  swag_enabled: Boolean!
   team_member_groups_enabled: Boolean!
 }
 
@@ -24560,6 +24718,7 @@ type Query implements Node {
     where: FiltersToolFilterInput
   ): ToolConnection
   tray_solution_instance_url(integration_id: ID!, solution_instance_id: String!): String!
+  triage_inbox: TriageInbox
 
   """
   A resolver for triage inbox items
@@ -24569,14 +24728,13 @@ type Query implements Node {
     Returns the elements in the list that come after the specified cursor.
     """
     after: String
-    asset_category: String = null
-    assigned_to_triage: Boolean = false
+    asset_category: String
+    assigned_to_triage: Boolean
 
     """
     Returns the elements in the list that come before the specified cursor.
     """
     before: String
-    dismissal_state: TriageInboxItemDismissalStateEnum = undismissed
 
     """
     Returns the first _n_ elements from the list.
@@ -24587,18 +24745,16 @@ type Query implements Node {
     Returns the last _n_ elements from the list.
     """
     last: Int
-    ordered_by_timer: Boolean = true
-    owner_usernames: [String!] = []
-    plus: Boolean = false
-    priority: TriageInboxItemPriorityEnum = null
-    product_editions: [TriageInboxItemProductEditionFilterEnum!] = null
-    recently_claimed: Boolean = false
+    ordered_by_timer: Boolean
+    owner_usernames: [String!]
+    plus: Boolean
+    priority: TriageInboxItemPriorityEnum
+    product_editions: [TriageInboxItemProductEditionFilterEnum!]
     report_id: Int
-    report_substate: TriageInboxItemReportSubstateEnum = null
-    report_title: String = null
-    team_handle: [String!] = []
-    unowned: Boolean = false
-    view: TriageInboxItemViewEnum = null
+    report_substate: TriageInboxItemReportSubstateEnum
+    report_title: String
+    team_handle: [String!]
+    view: TriageInboxItemViewEnum
   ): TriageInboxItemConnection
   user(username: String!): User @deprecated(reason: "Query for a User node at the root level is not recommended. Ref T12456")
   users(
@@ -26177,6 +26333,7 @@ type Report implements ActivitiesInterface & Node & ResourceInterface {
     last: Int
   ): OrganizationInboxConnection!
   original_report: Report
+  original_report_id: ID
   pending_action_from: ReportPendingActionFromEnum
   pentest: Pentest
 
@@ -28048,16 +28205,11 @@ A Scanner Asset Submission
 type ScannerAssetSubmission implements AssetSubmissionInterface & Node {
   _id: ID!
   asset_type: HackerAssetTypeEnum
-  availability_requirement: SeveritySecurityRequirementEnum
-  confidentiality_requirement: SeveritySecurityRequirementEnum
   created_at: DateTime!
   description: String
   display_name: String
   id: ID!
   identifier: String!
-  integrity_requirement: SeveritySecurityRequirementEnum
-  max_severity: SeverityRatingEnum
-  organization: Organization
   status: AssetSubmissionStatusEnum
   updated_at: DateTime!
 }
@@ -30281,6 +30433,7 @@ type Team implements ActivitiesInterface & Node & ResourceInterface {
   agile_accelerator_integration_enabled: Boolean
   allow_all_hacker_invitations: Boolean
   allow_email_and_automatic_invitations: Boolean
+  allowed_to_offer_swag: Boolean
   allowed_to_use_saml_in_sandbox: Boolean
   allows_bounty_splitting: Boolean
   allows_collaboration_with_non_whitelisted_hackers: Boolean
@@ -30702,6 +30855,7 @@ type Team implements ActivitiesInterface & Node & ResourceInterface {
     order_by: ForwardedEmailOrderInput = {direction: DESC, field: created_at}
   ): ForwardedEmailsConnection
   goal_valid_reports: Int
+  gold_standard: Int
   grace_period_remaining_in_days: Int
   hacker_engagement_statistics(child_team_ids: [ID!], end_date: Date!, exclude_imported: Boolean, include_parent: Boolean, interval: DateSeriesIntervalEnum!, start_date: Date!): HackerEngagementStatistics!
   hackerone_to_jira_events_configuration: HackeroneToJiraEventsConfiguration
@@ -32119,6 +32273,7 @@ type TeamMemberEligibilitySettings implements Node {
   allowed_domains: [String!]!
   allowed_domains_enabled: Boolean!
   id: ID!
+  name: String
 }
 
 """
@@ -32588,6 +32743,8 @@ enum TeamWeaknessStates {
 
 input TermFilterInput {
   asset_group_id: Int
+  credentials_set_up: Boolean
+  gold_standard: Int
   identifier: String
   industry: String
   offers_bounties: Boolean
@@ -33382,6 +33539,20 @@ type TrayProfile implements Node {
 }
 
 """
+Triage Inbox
+"""
+type TriageInbox implements Node {
+  id: ID!
+  oldest_undismissed_at(product_editions: [TriageInboxItemProductEditionFilterEnum!]!, view: TriageInboxItemViewEnum!): DateTime
+  owned_by_me_total_count: Int!
+  owned_by_triage_total_count: Int!
+  prioritization_total_count: Int!
+  pristine_total_count: Int!
+  recently_dismissed_total_count: Int!
+  teams: [Team]
+}
+
+"""
 A Triage Inbox Item
 """
 type TriageInboxItem implements Node {
@@ -33410,21 +33581,11 @@ type TriageInboxItemConnection {
   A list of nodes.
   """
   nodes: [TriageInboxItem]
-  owned_by_me_total_count: Int!
-  owned_by_triage_total_count: Int!
 
   """
   Information to aid in pagination.
   """
   pageInfo: PageInfo!
-  prioritization_total_count: Int!
-  pristine_total_count: Int!
-  recently_dismissed_total_count: Int!
-  teams: [Team]
-
-  """
-  Int
-  """
   total_count: Int!
 }
 
@@ -33441,14 +33602,6 @@ enum TriageInboxItemDismissalMethodEnum {
   triage_plus_inbox_list_item_dismisser
   triage_plus_inbox_report_drawer_dismisser
   triage_plus_inbox_state_changer
-}
-
-"""
-Valid values for the dismissal state of triage inbox items
-"""
-enum TriageInboxItemDismissalStateEnum {
-  dismissed
-  undismissed
 }
 
 """
@@ -33506,8 +33659,8 @@ enum TriageInboxItemViewEnum {
   owned_by_triage
   prioritization
   pristine
+  recently_claimed
   recently_dismissed
-  validation
 }
 
 """
@@ -33519,6 +33672,7 @@ type TriageMeta implements Node & ResourceInterface {
   noise_reason: String
   oldest_undismissed_triage_inbox_item: TriageInboxItem
   owned_by: User
+  owned_by_at: DateTime
   plus: Boolean
   priority: String
   priority_classification: String
@@ -34292,6 +34446,54 @@ type UpdateAssetDescriptionPayload implements MutationResult {
 }
 
 """
+Autogenerated input type of UpdateAssetIdentifier
+"""
+input UpdateAssetIdentifierInput {
+  asset_id: ID!
+
+  """
+  A unique identifier for the client performing the mutation.
+  """
+  clientMutationId: String
+  identifier: String!
+}
+
+"""
+Autogenerated return type of UpdateAssetIdentifier
+"""
+type UpdateAssetIdentifierPayload implements MutationResult {
+  asset: Asset
+
+  """
+  A unique identifier for the client performing the mutation.
+  """
+  clientMutationId: String
+  errors(
+    """
+    Returns the elements in the list that come after the specified cursor.
+    """
+    after: String
+
+    """
+    Returns the elements in the list that come before the specified cursor.
+    """
+    before: String
+
+    """
+    Returns the first _n_ elements from the list.
+    """
+    first: Int
+
+    """
+    Returns the last _n_ elements from the list.
+    """
+    last: Int
+    types: [ErrorTypeEnum]
+  ): ErrorConnection!
+  was_successful: Boolean!
+}
+
+"""
 Autogenerated input type of UpdateAsset
 """
 input UpdateAssetInput {
@@ -34590,7 +34792,7 @@ input UpdateAutomaticInvitesInput {
   """
   clientMutationId: String
   enabled: Boolean!
-  handle: String!
+  team_id: ID!
 }
 
 """
@@ -39020,6 +39222,52 @@ type UpdateTeamSuccessGoalsPayload implements MutationResult {
 }
 
 """
+Autogenerated input type of UpdateTeamSwagSetting
+"""
+input UpdateTeamSwagSettingInput {
+  """
+  A unique identifier for the client performing the mutation.
+  """
+  clientMutationId: String
+  offers_swag: Boolean!
+  team_id: ID!
+}
+
+"""
+Autogenerated return type of UpdateTeamSwagSetting
+"""
+type UpdateTeamSwagSettingPayload implements MutationResult {
+  """
+  A unique identifier for the client performing the mutation.
+  """
+  clientMutationId: String
+  errors(
+    """
+    Returns the elements in the list that come after the specified cursor.
+    """
+    after: String
+
+    """
+    Returns the elements in the list that come before the specified cursor.
+    """
+    before: String
+
+    """
+    Returns the first _n_ elements from the list.
+    """
+    first: Int
+
+    """
+    Returns the last _n_ elements from the list.
+    """
+    last: Int
+    types: [ErrorTypeEnum]
+  ): ErrorConnection!
+  team: Team
+  was_successful: Boolean!
+}
+
+"""
 Autogenerated input type of UpdateTeamTargetSignal
 """
 input UpdateTeamTargetSignalInput {
@@ -40231,6 +40479,27 @@ type User implements Node & ResourceInterface {
   address: Address
   allow_pentester_application: Boolean!
   anc_triager: Boolean
+  asset_enrichment_submissions(
+    """
+    Returns the elements in the list that come after the specified cursor.
+    """
+    after: String
+
+    """
+    Returns the elements in the list that come before the specified cursor.
+    """
+    before: String
+
+    """
+    Returns the first _n_ elements from the list.
+    """
+    first: Int
+
+    """
+    Returns the last _n_ elements from the list.
+    """
+    last: Int
+  ): AssetEnrichmentSubmissionConnection
   asset_submissions(
     """
     Returns the elements in the list that come after the specified cursor.
@@ -41115,6 +41384,33 @@ type User implements Node & ResourceInterface {
   twitter_handle: String
   unconfirmed_email: String
   url: URI!
+
+  """
+  A Resolver for User Availabilities
+  """
+  user_availabilities(
+    """
+    Returns the elements in the list that come after the specified cursor.
+    """
+    after: String
+
+    """
+    Returns the elements in the list that come before the specified cursor.
+    """
+    before: String
+
+    """
+    Returns the first _n_ elements from the list.
+    """
+    first: Int
+
+    """
+    Returns the last _n_ elements from the list.
+    """
+    last: Int
+    order_by: FiltersUserAvailabilityFilterOrder
+    where: FiltersUserAvailabilityFilterInput
+  ): UserAvailabilityConnection
   user_devices(
     """
     Returns the elements in the list that come after the specified cursor.
@@ -41189,6 +41485,53 @@ type User implements Node & ResourceInterface {
     where: FiltersTeamFilterInput
   ): TeamConnection
   year_in_review_published_at: DateTime
+}
+
+"""
+User availability for a day
+"""
+type UserAvailability implements Node {
+  _id: ID!
+  available: Boolean
+  date: Date!
+  id: ID!
+  user: User!
+}
+
+"""
+The connection type for UserAvailability.
+"""
+type UserAvailabilityConnection {
+  """
+  A list of edges.
+  """
+  edges: [UserAvailabilityEdge]
+
+  """
+  A list of nodes.
+  """
+  nodes: [UserAvailability]
+
+  """
+  Information to aid in pagination.
+  """
+  pageInfo: PageInfo!
+  total_count: Int
+}
+
+"""
+An edge in a connection.
+"""
+type UserAvailabilityEdge {
+  """
+  A cursor for use in pagination.
+  """
+  cursor: String!
+
+  """
+  The item at the end of the edge.
+  """
+  node: UserAvailability
 }
 
 """

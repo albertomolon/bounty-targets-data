@@ -44,7 +44,7 @@
     "id": "/aex/aex",
     "name": "AEX",
     "url": "https://hackenproof.com/aex/aex",
-    "archived": false,
+    "archived": true,
     "targets": {
       "in_scope": [
         {
@@ -1016,34 +1016,6 @@
           "severity": "Critical",
           "reward": "Bounty"
         }
-      ],
-      "out_of_scope": [
-
-      ]
-    }
-  },
-  {
-    "id": "/ukraine-will-win/call-for-ukrainian-cyber-defense-stop-the-war",
-    "name": "Call for Ukrainian cyber defense. Stop the war",
-    "url": "https://hackenproof.com/ukraine-will-win/call-for-ukrainian-cyber-defense-stop-the-war",
-    "archived": true,
-    "targets": {
-      "in_scope": [
-
-      ],
-      "out_of_scope": [
-
-      ]
-    }
-  },
-  {
-    "id": "/ukraine-will-win/save-millions-lives-hackers-against-russia",
-    "name": "Call for exploits. Stop the war",
-    "url": "https://hackenproof.com/ukraine-will-win/save-millions-lives-hackers-against-russia",
-    "archived": true,
-    "targets": {
-      "in_scope": [
-
       ],
       "out_of_scope": [
 
@@ -3063,6 +3035,53 @@
       ],
       "out_of_scope": [
 
+      ]
+    }
+  },
+  {
+    "id": "/status-dot-im/waku",
+    "name": "Waku",
+    "url": "https://hackenproof.com/status-dot-im/waku",
+    "archived": false,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://github.com/waku-org/js-waku",
+          "type": "Code",
+          "instruction": "A JavaScript implementation of the Waku v2 protocol (https://rfc.vac.dev/spec/10/).",
+          "severity": "Medium",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://github.com/waku-org/js-waku-examples",
+          "type": "Code",
+          "instruction": "We are interested in finding vulnerabilities in the examples but will consider the severity lower",
+          "severity": "Low",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://github.com/status-im/go-waku",
+          "type": "Code",
+          "instruction": "",
+          "severity": "Medium",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://github.com/status-im/go-waku/tree/master/examples",
+          "type": "Code",
+          "instruction": "We are interested in finding vulnerabilities in the examples but will consider the severity lower",
+          "severity": "Low",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "https://github.com/status-im/go-waku/tree/master/waku/v2/protocol/rln",
+          "type": "Code",
+          "instruction": "",
+          "severity": "None",
+          "reward": null
+        }
       ]
     }
   },
