@@ -630,11 +630,19 @@
         },
         {
           "type": "website",
+          "target": "*.isb.arubanetworks.com"
+        },
+        {
+          "type": "website",
           "target": "asp-notifications.arubanetworks.com"
         },
         {
           "type": "website",
           "target": "community.arubanetworks.com"
+        },
+        {
+          "type": "website",
+          "target": "enews.arubanetworks.com"
         },
         {
           "type": "website",
@@ -3081,6 +3089,41 @@
     }
   },
   {
+    "name": "Chia Network",
+    "url": "https://bugcrowd.com/chia-network-bb",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 10000,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "other",
+          "target": "Chia BLS Signatures"
+        },
+        {
+          "type": "other",
+          "target": "Chia Plotter"
+        },
+        {
+          "type": "other",
+          "target": "Chia Verifiable Delay Functions (VDF)"
+        },
+        {
+          "type": "other",
+          "target": "Chia core"
+        },
+        {
+          "type": "other",
+          "target": "Chia desktop"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "Cisco Meraki",
     "url": "https://bugcrowd.com/ciscomeraki",
     "allows_disclosure": true,
@@ -4061,25 +4104,6 @@
         {
           "type": "website",
           "target": "https://www.csosa.gov/"
-        }
-      ],
-      "out_of_scope": [
-
-      ]
-    }
-  },
-  {
-    "name": "Cudos Network Bounty Program",
-    "url": "https://bugcrowd.com/cudo-og",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "full",
-    "max_payout": 4500,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "other",
-          "target": "Cudos Network Testnet"
         }
       ],
       "out_of_scope": [
@@ -5700,6 +5724,25 @@
     }
   },
   {
+    "name": "FEDERAL MARITIME COMMISSION - VDP",
+    "url": "https://bugcrowd.com/fmc-vdp",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.fmc.gov"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "FoxyCart",
     "url": "https://bugcrowd.com/foxycart",
     "allows_disclosure": true,
@@ -5801,6 +5844,81 @@
         {
           "type": "other",
           "target": "74.113.204.0/22"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
+    "name": "Federal Trade Commission: Vulnerability Disclosure Program",
+    "url": "https://bugcrowd.com/ftc-vdp",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://*.alertaenlinea.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.consumer.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.consumersentinel.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.donotcall.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.dontserveteens.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.econsumer.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.ftc.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.hsr.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.identitytheft.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.idtheft.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.militaryconsumer.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.onguardonline.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.protecciondelconsumidor.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.robodeidentidad.gov"
+        },
+        {
+          "type": "website",
+          "target": "https://*.sentinel.gov"
         }
       ],
       "out_of_scope": [
@@ -6923,6 +7041,10 @@
       ],
       "out_of_scope": [
         {
+          "type": "website",
+          "target": "*.business.just-eat.co.uk - Just Eat for Business "
+        },
+        {
           "type": "other",
           "target": "api.skipthedishes.com"
         },
@@ -7588,15 +7710,7 @@
         },
         {
           "type": "website",
-          "target": "*.limeinternal.com"
-        },
-        {
-          "type": "website",
           "target": "https://admintool.lime.bike"
-        },
-        {
-          "type": "website",
-          "target": "https://airflow.limeinternal.com"
         },
         {
           "type": "api",
@@ -7607,10 +7721,6 @@
           "target": "https://apps.apple.com/us/app/lime/id1199780189"
         },
         {
-          "type": "website",
-          "target": "https://data.limeinternal.com"
-        },
-        {
           "type": "api",
           "target": "https://juicer.lime.bike"
         },
@@ -7619,16 +7729,8 @@
           "target": "https://ops.lime.bike"
         },
         {
-          "type": "website",
-          "target": "https://orchard.limeinternal.com"
-        },
-        {
           "type": "android",
           "target": "https://play.google.com/store/apps/details?id=com.limebike"
-        },
-        {
-          "type": "website",
-          "target": "https://tab.limeinternal.com"
         },
         {
           "type": "api",
@@ -7642,7 +7744,15 @@
       "out_of_scope": [
         {
           "type": "website",
+          "target": "*.limeinternal.com"
+        },
+        {
+          "type": "website",
           "target": "https://*.li.me"
+        },
+        {
+          "type": "website",
+          "target": "https://airflow.limeinternal.com"
         },
         {
           "type": "website",
@@ -8231,7 +8341,7 @@
     }
   },
   {
-    "name": "Memsource Vulnerability Disclosure Program",
+    "name": "Phrase Vulnerability Disclosure Program",
     "url": "https://bugcrowd.com/memsource-vdp",
     "allows_disclosure": false,
     "managed_by_bugcrowd": true,
@@ -8605,6 +8715,10 @@
         {
           "type": "website",
           "target": "*.ubank.com.au"
+        },
+        {
+          "type": "other",
+          "target": "Any other assets that appear to belong to NAB Group"
         },
         {
           "type": "website",
@@ -9982,6 +10096,14 @@
     "targets": {
       "in_scope": [
         {
+          "type": "website",
+          "target": "https://accounts.welcomesoftware.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://analytics.welcomesoftware.com/"
+        },
+        {
           "type": "api",
           "target": "https://api.optimizely.com/"
         },
@@ -9990,8 +10112,20 @@
           "target": "https://api.prod.optimizely.com"
         },
         {
+          "type": "api",
+          "target": "https://api.welcomesoftware.com/ "
+        },
+        {
           "type": "website",
           "target": "https://app.optimizely.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://app.welcomesoftware.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://cdn-app.welcomesoftware.com/"
         },
         {
           "type": "website",
@@ -14410,31 +14544,47 @@
         },
         {
           "type": "website",
-          "target": "benjerry.com.*"
-        },
-        {
-          "type": "website",
           "target": "horlicks.in"
         },
         {
           "type": "website",
-          "target": "https://.ponds.com/*"
+          "target": "http://www.benjerry.co.il/"
         },
         {
           "type": "website",
-          "target": "https://.zendium.*"
+          "target": "http://www.benjerry.co.uk"
         },
         {
           "type": "website",
-          "target": "https://pukkaherbs.com/*"
+          "target": "http://www.ponds.com.mx/"
         },
         {
           "type": "website",
-          "target": "https://rexona.com/*"
+          "target": "http://www.popsicle.ca/en"
         },
         {
           "type": "website",
-          "target": "https://sedal.*"
+          "target": "http://www.popsicle.ca/fr/"
+        },
+        {
+          "type": "website",
+          "target": "http://www.rexona.com.pe"
+        },
+        {
+          "type": "website",
+          "target": "http://www.sedal.com.pe"
+        },
+        {
+          "type": "website",
+          "target": "http://www.vim.com.ar"
+        },
+        {
+          "type": "website",
+          "target": "http://zwitsal.be/be/fr/"
+        },
+        {
+          "type": "website",
+          "target": "https://sedal.com.mx"
         },
         {
           "type": "website",
@@ -14442,19 +14592,275 @@
         },
         {
           "type": "website",
-          "target": "https://simpleskincare.com/*"
-        },
-        {
-          "type": "website",
           "target": "https://unilever.com/"
         },
         {
           "type": "website",
-          "target": "https://vim.*"
+          "target": "https://www.benjerry.at"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.be/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.ch/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.co.nz/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.co.th/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.com.pr/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.com.sg"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.de/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.dk/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.fi/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.fr/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.ie/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.it"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.nl/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.benjerry.no/"
         },
         {
           "type": "website",
           "target": "https://www.hellmanns.com/es/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.ponds.com.ar"
+        },
+        {
+          "type": "website",
+          "target": "https://www.ponds.com/arabia/en/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.ponds.com/co/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.ponds.com/id/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.ponds.com/pe/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.ponds.com/pk/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.ponds.com/th/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.ponds.com/us/en/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.ponds.com/us/es/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.ponds.com/vn/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.popsicle.com/us/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/uk/en/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/ar/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/arabia/ar/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/arabia/en/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/at/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/au/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/ch/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/cl"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/co/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/cz/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/de/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/dk"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/eg/ar/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/eg/en/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/es/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/fi/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/hu/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/id/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.rexona.com/se/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.sedal.cl/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.sedal.co.cr/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.sedal.com.ar/inicio.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.sedal.com.ec/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/arabia/ar"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/arabia/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/au"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/br"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/ca/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/ca/fr"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/id"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/il/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/il/he"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/mx"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/my"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/no"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/ph"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/pt"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/sg"
+        },
+        {
+          "type": "website",
+          "target": "https://www.simpleskincare.com/th"
         },
         {
           "type": "website",
@@ -14470,11 +14876,19 @@
         },
         {
           "type": "website",
-          "target": "https://www.zmrzlina-misa.cz/"
+          "target": "https://www.vim.ca/fr-CA/home.html"
         },
         {
           "type": "website",
-          "target": "https://www.zwitsal.*"
+          "target": "https://www.vim.ca/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.zendium.co.uk/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.zmrzlina-misa.cz/"
         },
         {
           "type": "website",
@@ -14482,11 +14896,11 @@
         },
         {
           "type": "website",
-          "target": "popsicle.*"
+          "target": "ufs.com/"
         },
         {
           "type": "website",
-          "target": "ufs.com/"
+          "target": "www.sedal.com.co/home.html"
         }
       ],
       "out_of_scope": [

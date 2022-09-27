@@ -1020,17 +1020,17 @@
       "in_scope": [
         {
           "type": "url",
-          "endpoint": "floriday.nl",
+          "endpoint": "*.floriday.com",
           "description": null
         },
         {
           "type": "url",
-          "endpoint": "floriday.com",
+          "endpoint": "*.floriday.io",
           "description": null
         },
         {
           "type": "url",
-          "endpoint": "floriday.io",
+          "endpoint": "*.floriday.nl",
           "description": null
         }
       ],
@@ -2498,6 +2498,65 @@
     }
   },
   {
+    "id": "56339d19-36cc-49a0-8e8f-b2502e00d165",
+    "name": "Moralis VDP",
+    "company_handle": "moralis",
+    "handle": "moralisio",
+    "url": "https://www.intigriti.com/programs/moralis/moralisio/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "min_bounty": {
+      "value": 0.0,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 0.0,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "url",
+          "endpoint": "*.moralis.io ",
+          "description": null
+        },
+        {
+          "type": "url",
+          "endpoint": "*.bigmoralis.com",
+          "description": null
+        },
+        {
+          "type": "url",
+          "endpoint": "*.grandmoralis.com",
+          "description": null
+        },
+        {
+          "type": "url",
+          "endpoint": "*.moralisapp.com",
+          "description": null
+        },
+        {
+          "type": "url",
+          "endpoint": "*.moralishost.com",
+          "description": null
+        },
+        {
+          "type": "url",
+          "endpoint": "*.moralisweb3.com",
+          "description": null
+        },
+        {
+          "type": "url",
+          "endpoint": "*.usemoralis.com",
+          "description": null
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "id": "60f8cd53-8998-483f-8797-d111d5dd9d4b",
     "name": "Napoleon Games NV",
     "company_handle": "hucklu",
@@ -3842,16 +3901,6 @@
         },
         {
           "type": "url",
-          "endpoint": "mail.uzleuven.be",
-          "description": null
-        },
-        {
-          "type": "url",
-          "endpoint": "mijnplanning.uzleuven.be",
-          "description": null
-        },
-        {
-          "type": "url",
           "endpoint": "mx1.uzleuven.be",
           "description": null
         },
@@ -3892,22 +3941,7 @@
         },
         {
           "type": "url",
-          "endpoint": "ecrftest1.uzleuven.be",
-          "description": null
-        },
-        {
-          "type": "url",
-          "endpoint": "extranet-test.uzleuven.be",
-          "description": null
-        },
-        {
-          "type": "url",
           "endpoint": "liquidfilestest.uzleuven.be",
-          "description": null
-        },
-        {
-          "type": "url",
-          "endpoint": "mijnplanningtest.uzleuven.be",
           "description": null
         },
         {
@@ -3923,11 +3957,6 @@
         {
           "type": "url",
           "endpoint": "w1.uzleuven.be",
-          "description": null
-        },
-        {
-          "type": "url",
-          "endpoint": "webapps.uzleuven.be",
           "description": null
         },
         {
