@@ -1033,6 +1033,10 @@
         },
         {
           "type": "other",
+          "target": "Atlas for Jira Cloud - Cloud - https://marketplace.atlassian.com/apps/1228937/atlas-for-jira-cloud?hosting=cloud&tab=overview"
+        },
+        {
+          "type": "other",
           "target": "Atlassian Cloud for Gmail - Cloud - https://marketplace.atlassian.com/apps/1219311/atlassian-cloud-for-gmail?hosting=cloud"
         },
         {
@@ -1525,7 +1529,7 @@
         },
         {
           "type": "other",
-          "target": "Jenkins for Jira (official) - Cloud - https://marketplace.atlassian.com/apps/1221050/jenkins-for-jira-official?hosting=cloud"
+          "target": "Jenkins for Jira (official) - Cloud - https://marketplace.atlassian.com/apps/1227791/jenkins-for-jira-official?hosting=cloud"
         },
         {
           "type": "other",
@@ -1598,6 +1602,10 @@
         {
           "type": "other",
           "target": "Jira Cloud for Slack - Cloud - https://marketplace.atlassian.com/apps/1215948/jira-cloud-for-slack?hosting=cloud"
+        },
+        {
+          "type": "other",
+          "target": "Jira Enterprise Scale Assessment Tool - DataCenter - https://marketplace.atlassian.com/apps/1227744/jira-enterprise-scale-assessment-tool?hosting=datacenter&tab=overview"
         },
         {
           "type": "other",
@@ -3124,6 +3132,37 @@
     }
   },
   {
+    "name": "Council of the Inspectors General on Integrity and Efficiency Vulnerability Disclosure Program",
+    "url": "https://bugcrowd.com/cigie-vdp",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.cigie.gov"
+        },
+        {
+          "type": "website",
+          "target": "*.ignet.gov"
+        },
+        {
+          "type": "website",
+          "target": "*.oversight.gov"
+        },
+        {
+          "type": "website",
+          "target": "*.pandemicoversight.gov"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "Cisco Meraki",
     "url": "https://bugcrowd.com/ciscomeraki",
     "allows_disclosure": true,
@@ -4180,10 +4219,6 @@
         {
           "type": "website",
           "target": "https://console.delltechnologies.com/ "
-        },
-        {
-          "type": "website",
-          "target": "https://stage.delltechnologies.com/"
         },
         {
           "type": "website",
@@ -9515,6 +9550,25 @@
     }
   },
   {
+    "name": "National Transportation Safety Board: Vulnerability Disclosure Program",
+    "url": "https://bugcrowd.com/ntsb-vdp",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.ntsb.gov"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "Octopus Deploy",
     "url": "https://bugcrowd.com/octopus-deploy",
     "allows_disclosure": false,
@@ -14584,6 +14638,18 @@
         },
         {
           "type": "website",
+          "target": "https://magento.volle-truhe.at/"
+        },
+        {
+          "type": "website",
+          "target": "https://online.frisko.dk/B2B"
+        },
+        {
+          "type": "website",
+          "target": "https://online.frisko.dk/customer/account/login/"
+        },
+        {
+          "type": "website",
           "target": "https://sedal.com.mx"
         },
         {
@@ -14708,7 +14774,67 @@
         },
         {
           "type": "website",
+          "target": "https://www.pukkaherbs.com/arabia/ar"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/arabia/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/au/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/be/fr"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/be/nl"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/ca/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/ch/de"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/ch/fr"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/fi/fi"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/fr/fr"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/it/it"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/no/no"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/pl"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/se/sv"
+        },
+        {
+          "type": "website",
           "target": "https://www.pukkaherbs.com/uk/en/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.pukkaherbs.com/us/en"
         },
         {
           "type": "website",
@@ -14896,6 +15022,10 @@
         },
         {
           "type": "website",
+          "target": "magento.volle-truhe.at/distributor/account/"
+        },
+        {
+          "type": "website",
           "target": "ufs.com/"
         },
         {
@@ -15066,6 +15196,10 @@
         {
           "type": "website",
           "target": "opinions.united.com"
+        },
+        {
+          "type": "website",
+          "target": "packages.united.com"
         },
         {
           "type": "website",
@@ -16431,6 +16565,14 @@
     "max_payout": 1000,
     "targets": {
       "in_scope": [
+        {
+          "type": "hardware",
+          "target": "Wyze Cam V2"
+        },
+        {
+          "type": "hardware",
+          "target": "Wyze Cam V3"
+        },
         {
           "type": "api",
           "target": "https://api.wyzecam.com"
