@@ -4003,6 +4003,29 @@
     }
   },
   {
+    "name": "CoolBitX - Managed Bug Bounty",
+    "url": "https://bugcrowd.com/coolbitx-mbb",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "none",
+    "max_payout": 10000,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "iot",
+          "target": "CoolWallet Pro"
+        },
+        {
+          "type": "android",
+          "target": "CoolWallet Pro App"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "Craft Coders Marketplace Bug Bounty",
     "url": "https://bugcrowd.com/craftcoders",
     "allows_disclosure": true,
@@ -4143,37 +4166,6 @@
         {
           "type": "website",
           "target": "https://www.csosa.gov/"
-        }
-      ],
-      "out_of_scope": [
-
-      ]
-    }
-  },
-  {
-    "name": "Cybrary",
-    "url": "https://bugcrowd.com/cybrary",
-    "allows_disclosure": false,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "full",
-    "max_payout": 0,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "android",
-          "target": "Android App"
-        },
-        {
-          "type": "website",
-          "target": "app.cybrary.it/*"
-        },
-        {
-          "type": "ios",
-          "target": "iOS App"
-        },
-        {
-          "type": "website",
-          "target": "www.cybrary.it/*"
         }
       ],
       "out_of_scope": [
@@ -5531,7 +5523,7 @@
   },
   {
     "name": "FIS",
-    "url": "https://bugcrowd.com/fisglobal",
+    "url": "https://bugcrowd.com/fis",
     "allows_disclosure": true,
     "managed_by_bugcrowd": true,
     "safe_harbor": "full",
@@ -5548,35 +5540,11 @@
         },
         {
           "type": "website",
-          "target": "login1.fisglobal.com"
-        },
-        {
-          "type": "website",
-          "target": "login2.fisglobal.com"
-        },
-        {
-          "type": "website",
-          "target": "login3.fisglobal.com"
-        },
-        {
-          "type": "website",
-          "target": "login4.fisglobal.com"
-        },
-        {
-          "type": "website",
-          "target": "login5.fisglobal.com"
-        },
-        {
-          "type": "website",
           "target": "login6.fisglobal.com/idp/elogin"
         },
         {
           "type": "website",
-          "target": "login7.fisglobal.com"
-        },
-        {
-          "type": "website",
-          "target": "login8.fisglobal.com"
+          "target": "portal.efdservices.com/efgportal/Portal/login"
         }
       ],
       "out_of_scope": [
@@ -5587,138 +5555,6 @@
         {
           "type": "website",
           "target": "Any site relating to Sungard Availability Services"
-        },
-        {
-          "type": "website",
-          "target": "ap.acg.aaa.com"
-        },
-        {
-          "type": "website",
-          "target": "applicant.bankofeastman.com"
-        },
-        {
-          "type": "website",
-          "target": "applicantportal.primesouth.com"
-        },
-        {
-          "type": "website",
-          "target": "applicationportal.icbc-uscards.com"
-        },
-        {
-          "type": "website",
-          "target": "apply.riverwindbank.com"
-        },
-        {
-          "type": "website",
-          "target": "applynowportal.bankiowa.com"
-        },
-        {
-          "type": "website",
-          "target": "appportal.fcbmd.com"
-        },
-        {
-          "type": "website",
-          "target": "consumerloanapp.newwindsorbank.com"
-        },
-        {
-          "type": "website",
-          "target": "creditportal.arvest.com"
-        },
-        {
-          "type": "website",
-          "target": "lendinghfs.hatborofed.com"
-        },
-        {
-          "type": "website",
-          "target": "lendportal.associatedbank.com"
-        },
-        {
-          "type": "website",
-          "target": "lnscustomer.i-bankonline.com"
-        },
-        {
-          "type": "website",
-          "target": "loanapps.fcbca.com"
-        },
-        {
-          "type": "website",
-          "target": "loancenter.ffl.net"
-        },
-        {
-          "type": "website",
-          "target": "loanportal.bankwithunited.com"
-        },
-        {
-          "type": "website",
-          "target": "loanportal.classic.bank"
-        },
-        {
-          "type": "website",
-          "target": "loanportal.snb-t.com"
-        },
-        {
-          "type": "website",
-          "target": "loanportal.troybankandtrust.com"
-        },
-        {
-          "type": "website",
-          "target": "loans.bankhcb.com"
-        },
-        {
-          "type": "website",
-          "target": "loans.grsb.com"
-        },
-        {
-          "type": "website",
-          "target": "loans.mnlb.bank"
-        },
-        {
-          "type": "website",
-          "target": "loans.priorityonebank.com"
-        },
-        {
-          "type": "website",
-          "target": "loans.texasnational.com"
-        },
-        {
-          "type": "website",
-          "target": "loansap.elmirasavingsbank.com"
-        },
-        {
-          "type": "website",
-          "target": "loansap.firstoptionbank.com"
-        },
-        {
-          "type": "website",
-          "target": "myloanportal.plainscapital.com"
-        },
-        {
-          "type": "website",
-          "target": "oaportal.fnbgranbury.com"
-        },
-        {
-          "type": "website",
-          "target": "portal.bankoffrankewing.com"
-        },
-        {
-          "type": "website",
-          "target": "portal.highlandscommunitybank.com"
-        },
-        {
-          "type": "website",
-          "target": "portal.ocbconnect.com"
-        },
-        {
-          "type": "website",
-          "target": "portal.orientalbank.com"
-        },
-        {
-          "type": "website",
-          "target": "portaldev.fisglobal.com"
-        },
-        {
-          "type": "website",
-          "target": "portaltest.fisglobal.com"
         }
       ]
     }
@@ -7347,6 +7183,40 @@
     }
   },
   {
+    "name": "Kenna Security",
+    "url": "https://bugcrowd.com/kennasecurity",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "partial",
+    "max_payout": 4500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "other",
+          "target": "Any Host Verified To Be Owned By Kenna (Domains/IP space/etc.)"
+        },
+        {
+          "type": "website",
+          "target": "https://[your-subdomain].kennasecurity.com"
+        },
+        {
+          "type": "api",
+          "target": "https://api.kennasecurity.com"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "Any Kenna Security Platform Subdomain Not Created By You"
+        },
+        {
+          "type": "website",
+          "target": "https://www.kennasecurity.com"
+        }
+      ]
+    }
+  },
+  {
     "name": "Kistler Vulnerability Disclosure Program",
     "url": "https://bugcrowd.com/kistler-vdp",
     "allows_disclosure": true,
@@ -8264,10 +8134,6 @@
         },
         {
           "type": "website",
-          "target": "image-search.kik.com"
-        },
-        {
-          "type": "website",
           "target": "kik.me"
         },
         {
@@ -8473,6 +8339,10 @@
         {
           "type": "website",
           "target": "https://alumni-friends.monash.edu"
+        },
+        {
+          "type": "api",
+          "target": "https://mix.monash.edu/"
         },
         {
           "type": "website",
@@ -9405,11 +9275,23 @@
       "in_scope": [
         {
           "type": "website",
-          "target": "Slack Integration+ for Jira - Cloud Hosted - https://marketplace.atlassian.com/apps/1219324/slack-integration-for-jira?hosting=cloud&tab=overview"
+          "target": "https://marketplace.atlassian.com/apps/1219324/slack-integration-for-jira?hosting=cloud&tab=overview"
         },
         {
           "type": "website",
-          "target": "Slack first support - HelpDesk+ - Cloud - https://marketplace.atlassian.com/apps/1224706/slack-first-support-helpdesk?hosting=cloud&tab=overview"
+          "target": "https://marketplace.atlassian.com/apps/1224706/helpdesk-intuitive-slack-first-support?hosting=cloud&tab=overview"
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1224706/slack-first-support-helpdesk?hosting=cloud&tab=overview"
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1227628/microsoft-teams-integration-for-jira?hosting=cloud&tab=overview"
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1227656/docs-slack-for-confluence?hosting=cloud&tab=overview"
         }
       ],
       "out_of_scope": [
@@ -9951,11 +9833,23 @@
         },
         {
           "type": "android",
+          "target": "Opera GX for Android"
+        },
+        {
+          "type": "other",
+          "target": "Opera GX for Windows"
+        },
+        {
+          "type": "android",
           "target": "Opera Mini"
         },
         {
           "type": "android",
           "target": "Opera for Android "
+        },
+        {
+          "type": "other",
+          "target": "Opera for Windows"
         },
         {
           "type": "api",
@@ -10307,7 +10201,7 @@
     "url": "https://bugcrowd.com/ostrom-vdp",
     "allows_disclosure": true,
     "managed_by_bugcrowd": true,
-    "safe_harbor": "none",
+    "safe_harbor": "full",
     "max_payout": 0,
     "targets": {
       "in_scope": [
@@ -10886,85 +10780,6 @@
     }
   },
   {
-    "name": "RealSelf",
-    "url": "https://bugcrowd.com/realself",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "none",
-    "max_payout": 4500,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "ios",
-          "target": "RealSelf"
-        },
-        {
-          "type": "website",
-          "target": "assets.realself.com"
-        },
-        {
-          "type": "api",
-          "target": "auth.realself.com"
-        },
-        {
-          "type": "api",
-          "target": "charon.realself.com"
-        },
-        {
-          "type": "website",
-          "target": "ei.realself.com"
-        },
-        {
-          "type": "website",
-          "target": "fi.realself.com"
-        },
-        {
-          "type": "website",
-          "target": "i.realself.com"
-        },
-        {
-          "type": "api",
-          "target": "kraken.realself.com"
-        },
-        {
-          "type": "other",
-          "target": "log.realself.com"
-        },
-        {
-          "type": "website",
-          "target": "realself.com"
-        },
-        {
-          "type": "api",
-          "target": "search-faf.realself.com"
-        },
-        {
-          "type": "api",
-          "target": "search.realself.com"
-        },
-        {
-          "type": "other",
-          "target": "style.realself.com"
-        },
-        {
-          "type": "website",
-          "target": "wwa.realself.com"
-        },
-        {
-          "type": "website",
-          "target": "wwf.realself.com"
-        },
-        {
-          "type": "website",
-          "target": "www.realself.com"
-        }
-      ],
-      "out_of_scope": [
-
-      ]
-    }
-  },
-  {
     "name": "Rec Room Ongoing Bug Bounty",
     "url": "https://bugcrowd.com/recroom-og",
     "allows_disclosure": true,
@@ -11196,15 +11011,15 @@
         },
         {
           "type": "website",
-          "target": "*.regionstest.com"
-        },
-        {
-          "type": "website",
           "target": "*.rgbk.com"
         },
         {
           "type": "website",
           "target": "*.sabal.com"
+        },
+        {
+          "type": "website",
+          "target": "https://*.regions.com"
         }
       ],
       "out_of_scope": [
@@ -11717,7 +11532,7 @@
     "allows_disclosure": true,
     "managed_by_bugcrowd": true,
     "safe_harbor": "full",
-    "max_payout": 20000,
+    "max_payout": 50000,
     "targets": {
       "in_scope": [
         {
@@ -13374,31 +13189,19 @@
     "targets": {
       "in_scope": [
         {
-          "type": "other",
-          "target": "*.fkimg.net, *.flipke.com"
-        },
-        {
-          "type": "other",
-          "target": "*.flipkee.com, *.flipkeg.com, *.flipkey.biz, *.flipkey.co.uk, *.flipkey.info, *.flipkey.mobi, *.flipkey.net, *.flipkey.org, *.flipkey.us, *.flipkeybook.com, *.flipkeybookings.com, *.flipkeyconnect.com, *.flipkeyexchange.com, *.flipkeyinc.com, *.flipkeylistings.com, *.flipkeymail.com, *.flipkeypmsales.com, *.flipkeyprod.net, *.flipkeyrentals.com, *.flipkeys.com, *.flipkeys.net, *.flipkeys.org, *.flipkeysucks.com, *.flipkeyvacationrentals.com, *.flipky.com, *.flippkey.com, *.flopkey.com, *.myflipkey.com "
-        },
-        {
-          "type": "other",
+          "type": "website",
           "target": "*.flipkey.com"
         },
         {
-          "type": "other",
-          "target": "*.holidaylettings.co.uk"
-        },
-        {
-          "type": "other",
+          "type": "website",
           "target": "*.holidaylettings.com"
         },
         {
-          "type": "other",
+          "type": "website",
           "target": "*.housetrip.com"
         },
         {
-          "type": "other",
+          "type": "website",
           "target": "*.niumba.com"
         },
         {
@@ -13442,15 +13245,15 @@
           "target": "api2.tapayments.com"
         },
         {
-          "type": "website",
+          "type": "api",
           "target": "gwapi.tripadvisor.com"
         },
         {
-          "type": "website",
+          "type": "api",
           "target": "gwapi1.tripadvisor.com"
         },
         {
-          "type": "website",
+          "type": "api",
           "target": "gwapi2.tripadvisor.com"
         },
         {
@@ -13486,10 +13289,6 @@
           "target": "service.platform.tripadvisor.com"
         },
         {
-          "type": "website",
-          "target": "spiti.holidaylettings.co.uk/"
-        },
-        {
           "type": "api",
           "target": "walletproxy.tapayments.com"
         },
@@ -13504,24 +13303,12 @@
         {
           "type": "website",
           "target": "www.tripadvisor.com"
-        },
-        {
-          "type": "website",
-          "target": "www.tripadvisor.com.mx"
-        },
-        {
-          "type": "website",
-          "target": "www.tripadvisor.es"
         }
       ],
       "out_of_scope": [
         {
           "type": "website",
-          "target": "*.bokun.*"
-        },
-        {
-          "type": "website",
-          "target": "*.cruisecritic.*/rollcall/entry_cl.cfm*"
+          "target": " ir.tripadvisor.com"
         },
         {
           "type": "website",
@@ -13541,43 +13328,7 @@
         },
         {
           "type": "website",
-          "target": "*boards.cruisecritic.*"
-        },
-        {
-          "type": "website",
-          "target": "*forums.cruisecritic.*"
-        },
-        {
-          "type": "website",
           "target": "careers.tripadvisor.com"
-        },
-        {
-          "type": "website",
-          "target": "https://propertymanagers.flipkey.com/, media-cdn.tripadvisor.com, *.vhrimg.com, *.newrelic.com, *.fkimg.com, *.bethanybeachguide.com"
-        },
-        {
-          "type": "website",
-          "target": "https://www.cruisecritic.co.uk/rollcall/entry_cl.cfm.* "
-        },
-        {
-          "type": "website",
-          "target": "https://www.cruisecritic.com.au/rollcall/entry_cl.cfm.*"
-        },
-        {
-          "type": "website",
-          "target": "https://www.cruisecritic.com/rollcall/entry_cl.cfm.* "
-        },
-        {
-          "type": "website",
-          "target": "https://www.tripadvisor.*/Trips"
-        },
-        {
-          "type": "website",
-          "target": "images.flipkey.com, pm.flipkey.com, pages.flipkey.com, propertymanagers.flipkey.com"
-        },
-        {
-          "type": "website",
-          "target": "messages.cruisecritic.*"
         },
         {
           "type": "website",
@@ -13589,11 +13340,19 @@
         },
         {
           "type": "website",
+          "target": "www.tripadvisor.*/Articles"
+        },
+        {
+          "type": "website",
           "target": "www.tripadvisor.*/Mobile*"
         },
         {
           "type": "website",
-          "target": "www.tripadvisor.*/blog"
+          "target": "www.tripadvisor.*/Trips"
+        },
+        {
+          "type": "website",
+          "target": "www.tripadvisor.*/engineering"
         }
       ]
     }
@@ -14662,6 +14421,10 @@
         },
         {
           "type": "website",
+          "target": "https://webmail.unileverservices.com/"
+        },
+        {
+          "type": "website",
           "target": "https://www.benjerry.at"
         },
         {
@@ -15002,6 +14765,58 @@
         },
         {
           "type": "website",
+          "target": "https://www.vaseline.com/arabia/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.vaseline.com/ca/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.vaseline.com/ca/fr"
+        },
+        {
+          "type": "website",
+          "target": "https://www.vaseline.com/id/id"
+        },
+        {
+          "type": "website",
+          "target": "https://www.vaseline.com/in/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.vaseline.com/lk/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.vaseline.com/my/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.vaseline.com/th/th"
+        },
+        {
+          "type": "website",
+          "target": "https://www.vaseline.com/us/es"
+        },
+        {
+          "type": "website",
+          "target": "https://www.vaseline.com/za/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.vaseline.jp/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.vasenol.com.br/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.via.se/home.html"
+        },
+        {
+          "type": "website",
           "target": "https://www.vim.ca/fr-CA/home.html"
         },
         {
@@ -15010,7 +14825,51 @@
         },
         {
           "type": "website",
+          "target": "https://www.visopises.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.wallpaintingunilever.com/WP/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.walls.com.my/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.wallsicecream.com/id/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.wallsicecream.com/uk/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.wallsthailand.com/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.weareul.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.weis.com.au/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.winnenmetunilever.nl/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.yumos.com/home.html"
+        },
+        {
+          "type": "website",
           "target": "https://www.zendium.co.uk/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.zest.com.mx/"
         },
         {
           "type": "website",
@@ -15030,7 +14889,23 @@
         },
         {
           "type": "website",
+          "target": "vaseline.com.tr"
+        },
+        {
+          "type": "website",
+          "target": "vaseline.com/us/en"
+        },
+        {
+          "type": "website",
           "target": "www.sedal.com.co/home.html"
+        },
+        {
+          "type": "website",
+          "target": "xedex-centroamerica.com/home.html"
+        },
+        {
+          "type": "website",
+          "target": "yulaenergy.com/es/en"
         }
       ],
       "out_of_scope": [
@@ -16862,60 +16737,6 @@
         {
           "type": "website",
           "target": "https://support.youneedabudget.com"
-        }
-      ]
-    }
-  },
-  {
-    "name": "Zola VDP",
-    "url": "https://bugcrowd.com/zola-vdp",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "full",
-    "max_payout": 0,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "android",
-          "target": "Zola Android App"
-        },
-        {
-          "type": "ios",
-          "target": "Zola iOS App"
-        },
-        {
-          "type": "website",
-          "target": "https://www.zola.com/"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "website",
-          "target": "Albums Sign Up Dialog"
-        },
-        {
-          "type": "website",
-          "target": "https://www.zola.com/inspiration/onboard"
-        },
-        {
-          "type": "website",
-          "target": "https://www.zola.com/onboard/new"
-        },
-        {
-          "type": "website",
-          "target": "https://www.zola.com/onboard/select-product"
-        },
-        {
-          "type": "website",
-          "target": "https://www.zola.com/wedding/onboard/wedding-guest-list?question=NAME"
-        },
-        {
-          "type": "website",
-          "target": "https://www.zola.com/wedding/onboard/wedding-paper/INVITATIONS"
-        },
-        {
-          "type": "website",
-          "target": "https://www.zola.com/wedding/onboard/wedding-website"
         }
       ]
     }
