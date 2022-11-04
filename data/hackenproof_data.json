@@ -85,7 +85,7 @@
     "id": "/allbridge/allbridge",
     "name": "Allbridge",
     "url": "https://hackenproof.com/allbridge/allbridge",
-    "archived": true,
+    "archived": false,
     "targets": {
       "in_scope": [
         {
@@ -603,6 +603,20 @@
           "instruction": "",
           "severity": "None",
           "reward": null
+        },
+        {
+          "target": "forum.avax.netowrk",
+          "type": "Web",
+          "instruction": "",
+          "severity": "None",
+          "reward": null
+        },
+        {
+          "target": "https://avalanche-hub.com/",
+          "type": "Web",
+          "instruction": "",
+          "severity": "None",
+          "reward": null
         }
       ]
     }
@@ -731,6 +745,54 @@
     }
   },
   {
+    "id": "/bigone-global-exchange/bigone-global-exchange",
+    "name": "BigONE Global Exchange",
+    "url": "https://hackenproof.com/bigone-global-exchange/bigone-global-exchange",
+    "archived": false,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "*.big.one",
+          "type": "Web",
+          "instruction": "",
+          "severity": "Low",
+          "reward": "Bounty"
+        },
+        {
+          "target": "*.bigone.com",
+          "type": "Web",
+          "instruction": "",
+          "severity": "Low",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=one.big",
+          "type": "Android",
+          "instruction": "",
+          "severity": "Low",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://api.big.one/",
+          "type": "API",
+          "instruction": "",
+          "severity": "Low",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://apps.apple.com/us/app/bigone/id1485385044",
+          "type": "iOS",
+          "instruction": "",
+          "severity": "Low",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "id": "/bingx/bingx-exchange",
     "name": "BingX Exchange",
     "url": "https://hackenproof.com/bingx/bingx-exchange",
@@ -783,6 +845,13 @@
         },
         {
           "target": "support.bingx.com",
+          "type": "Web",
+          "instruction": "",
+          "severity": "None",
+          "reward": null
+        },
+        {
+          "target": "blog.bingx.com",
           "type": "Web",
           "instruction": "",
           "severity": "None",
@@ -1077,6 +1146,20 @@
           "instruction": "",
           "severity": "Critical",
           "reward": "Bounty"
+        },
+        {
+          "target": "api.geckoterminal.com",
+          "type": "API",
+          "instruction": "",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "geckoterminal.com",
+          "type": "Web",
+          "instruction": "",
+          "severity": "Critical",
+          "reward": "Bounty"
         }
       ],
       "out_of_scope": [
@@ -1231,6 +1314,13 @@
           "target": "Core Browser Extension",
           "type": "Other",
           "instruction": "https://chrome.google.com/webstore/detail/core/agoakfejjabomempkjlepdflaleeobhb",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "Core Web Wallet",
+          "type": "Web3",
+          "instruction": "https://core.app/",
           "severity": "Critical",
           "reward": "Bounty"
         }
@@ -1992,6 +2082,144 @@
     }
   },
   {
+    "id": "/jungle/jungle-smart-contract",
+    "name": "Jungle Smart Contract",
+    "url": "https://hackenproof.com/jungle/jungle-smart-contract",
+    "archived": false,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://etherscan.io/address/0xA289D37843f967AeB281F304c2011CD694364E28",
+          "type": "Smart Contract",
+          "instruction": "ETH WyvernProxyRegistry",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://etherscan.io/address/0xc1B6F3C6E48f89B8e3eA14F29e642a5FBbC2E127",
+          "type": "Smart Contract",
+          "instruction": "ETH WyvernTokenTransferProxy",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://etherscan.io/address/0x4660e2026C64358ADDD648755001A620A8914E52",
+          "type": "Smart Contract",
+          "instruction": "ETH NFT Contract",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://etherscan.io/address/0xeaFa35Df53D1Fbd0d08Ef40C9866a6E0E19535Bb",
+          "type": "Smart Contract",
+          "instruction": "ETH Exchange Contract",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://etherscan.io/address/0xa25Ec5245dd845B7DCf5a621D499BD6f61bb8A77",
+          "type": "Smart Contract",
+          "instruction": "ETH Atomicizer Contract",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://etherscan.io/address/0x12954062d22bfddcA9c0f518f230C0ccC98bD89A",
+          "type": "Smart Contract",
+          "instruction": "ETH MerkleValidator",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://etherscan.io/address/0x0A0a4c85DbF3FbAfEca234E9357d3B0025860E29",
+          "type": "Smart Contract",
+          "instruction": "ETH JungleRelayer",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://polygonscan.com/address/0xA289D37843f967AeB281F304c2011CD694364E28",
+          "type": "Smart Contract",
+          "instruction": "Polygon WyvernProxyRegistry",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://polygonscan.com/address/0xc1B6F3C6E48f89B8e3eA14F29e642a5FBbC2E127",
+          "type": "Smart Contract",
+          "instruction": "Polygon WyvernTokenTransferProxy",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://polygonscan.com/address/0x4660e2026C64358ADDD648755001A620A8914E52",
+          "type": "Smart Contract",
+          "instruction": "Polygon NFT Contract",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://polygonscan.com/address/0xeaFa35Df53D1Fbd0d08Ef40C9866a6E0E19535Bb",
+          "type": "Smart Contract",
+          "instruction": "Polygon Exchange Contract",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://polygonscan.com/address/0xa25Ec5245dd845B7DCf5a621D499BD6f61bb8A77",
+          "type": "Smart Contract",
+          "instruction": "Polygon Atomicizer Contract",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://polygonscan.com/address/0x12954062d22bfddcA9c0f518f230C0ccC98bD89A",
+          "type": "Smart Contract",
+          "instruction": "Polygon MerkleValidator",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://polygonscan.com/address/0x0A0a4c85DbF3FbAfEca234E9357d3B0025860E29",
+          "type": "Smart Contract",
+          "instruction": "Polygon JungleRelayer",
+          "severity": "Critical",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
+    "id": "/jungle/jungle-web",
+    "name": "Jungle Web",
+    "url": "https://hackenproof.com/jungle/jungle-web",
+    "archived": false,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "jungle.co",
+          "type": "Web",
+          "instruction": "",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "TBD",
+          "type": "API",
+          "instruction": "",
+          "severity": "Critical",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "id": "/kalmar/kalmar",
     "name": "Kalmar",
     "url": "https://hackenproof.com/kalmar/kalmar",
@@ -2277,6 +2505,26 @@
     }
   },
   {
+    "id": "/pagoda/near-protocol",
+    "name": "NEAR Protocol",
+    "url": "https://hackenproof.com/pagoda/near-protocol",
+    "archived": false,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://github.com/near/nearcore",
+          "type": "Protocol",
+          "instruction": "",
+          "severity": "Critical",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "id": "/neverdie/neverdie-smart-contract",
     "name": "Neverdie Smart Contract",
     "url": "https://hackenproof.com/neverdie/neverdie-smart-contract",
@@ -2538,7 +2786,7 @@
     "id": "/polkalokr/polkalokr-1",
     "name": "Polkalokr",
     "url": "https://hackenproof.com/polkalokr/polkalokr-1",
-    "archived": true,
+    "archived": false,
     "targets": {
       "in_scope": [
         {
@@ -2695,6 +2943,116 @@
       ],
       "out_of_scope": [
 
+      ]
+    }
+  },
+  {
+    "id": "/fox-foundation/shapeshift",
+    "name": "ShapeShift",
+    "url": "https://hackenproof.com/fox-foundation/shapeshift",
+    "archived": false,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "app.shapeshift.com",
+          "type": "Web",
+          "instruction": "runs https://github.com/shapeshift/web",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "api.bitcoin.shapeshift.com",
+          "type": "API",
+          "instruction": "runs https://github.com/shapeshift/unchained",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "api.ethereum.shapeshift.com",
+          "type": "API",
+          "instruction": "runs https://github.com/shapeshift/unchained",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "shapeshift.com",
+          "type": "Web",
+          "instruction": "hosted by WebFlow, a third-party",
+          "severity": "None",
+          "reward": "Bounty"
+        },
+        {
+          "target": "The ShapeShift Mobile App: https://apps.apple.com/us/app/shapeshift-buy-trade-crypto/id996569075",
+          "type": "Web",
+          "instruction": "iOS Mobile App\nThe application within the stated bounds of the bounty program.",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "The Shapeshift Mobile App: https://play.google.com/store/apps/details?id=com.shapeshift.droid_shapeshift&hl=en_US&gl=US",
+          "type": "Android",
+          "instruction": "Android Mobile App\nThe application within the stated bounds of the bounty program.",
+          "severity": "Critical",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "shapeshift.zendesk.com",
+          "type": "Web",
+          "instruction": "hosted by ZenDesk, a third-party",
+          "severity": "None",
+          "reward": null
+        },
+        {
+          "target": "shapeshift-io.hellonext.co",
+          "type": "Web",
+          "instruction": "hosted by HelloNext, a third-party",
+          "severity": "None",
+          "reward": null
+        },
+        {
+          "target": "beta.shapeshift.com",
+          "type": "Web",
+          "instruction": "a legacy system maintained by the Fox Foundation, not the ShapeShift DAO",
+          "severity": "None",
+          "reward": null
+        },
+        {
+          "target": "auth.shapeshift.com",
+          "type": "Web",
+          "instruction": "a legacy system maintained by the Fox Foundation, not the ShapeShift DAO",
+          "severity": "None",
+          "reward": null
+        },
+        {
+          "target": "portal.shapeshift.io",
+          "type": "Web",
+          "instruction": "a legacy system maintained by the Fox Foundation, not the ShapeShift DAO",
+          "severity": "None",
+          "reward": null
+        },
+        {
+          "target": "portis.io",
+          "type": "Web",
+          "instruction": "Portis is now a separate company",
+          "severity": "None",
+          "reward": null
+        },
+        {
+          "target": "coincap.io",
+          "type": "Web",
+          "instruction": "CoinCap is now a separate company",
+          "severity": "None",
+          "reward": null
+        },
+        {
+          "target": "Physical (or emulated!) KeepKey devices",
+          "type": "Web",
+          "instruction": "KeepKey is now a separate company",
+          "severity": "None",
+          "reward": null
+        }
       ]
     }
   },

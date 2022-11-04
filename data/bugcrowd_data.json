@@ -572,7 +572,7 @@
   {
     "name": "Aruba Networks Public Program",
     "url": "https://bugcrowd.com/aruba-public",
-    "allows_disclosure": true,
+    "allows_disclosure": false,
     "managed_by_bugcrowd": true,
     "safe_harbor": "none",
     "max_payout": 2500,
@@ -2129,6 +2129,53 @@
           "type": "website",
           "target": "The BigBrassBand Customer Service Desks (https://bigbrassband.atlassian.net/servicedesk/customer/portals) which are intentionally public, and open to anyone to submit support tickets."
         }
+      ]
+    }
+  },
+  {
+    "name": "BigCommerce",
+    "url": "https://bugcrowd.com/bigcommerce",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "none",
+    "max_payout": 2500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.bigcommerce.com"
+        },
+        {
+          "type": "website",
+          "target": "*.bigcommerce.net"
+        },
+        {
+          "type": "android",
+          "target": "BigCommerce Android"
+        },
+        {
+          "type": "ios",
+          "target": "BigCommerce iOS"
+        },
+        {
+          "type": "website",
+          "target": "https://*.YOUR-TESTING-STORE.mybigcommerce.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://STORE-YOURSTOREHash.mybigcommerce.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://bigcommerce.com/blog"
+        },
+        {
+          "type": "website",
+          "target": "https://bigcommerce.com/make-it-big"
+        }
+      ],
+      "out_of_scope": [
+
       ]
     }
   },
@@ -4003,7 +4050,7 @@
     }
   },
   {
-    "name": "CoolBitX - Managed Bug Bounty",
+    "name": "CoolBitX",
     "url": "https://bugcrowd.com/coolbitx-mbb",
     "allows_disclosure": true,
     "managed_by_bugcrowd": true,
@@ -4174,6 +4221,81 @@
     }
   },
   {
+    "name": "CyberGhost",
+    "url": "https://bugcrowd.com/cyberghost",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1250,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.cyberghost.com"
+        },
+        {
+          "type": "api",
+          "target": "CyberGhost APIs"
+        },
+        {
+          "type": "android",
+          "target": "CyberGhost Android application"
+        },
+        {
+          "type": "other",
+          "target": "CyberGhost Chrome extension"
+        },
+        {
+          "type": "other",
+          "target": "CyberGhost Firefox extension"
+        },
+        {
+          "type": "other",
+          "target": "CyberGhost Linux application"
+        },
+        {
+          "type": "other",
+          "target": "CyberGhost PS3+PS4 apps"
+        },
+        {
+          "type": "other",
+          "target": "CyberGhost VPN servers"
+        },
+        {
+          "type": "other",
+          "target": "CyberGhost Windows application"
+        },
+        {
+          "type": "other",
+          "target": "CyberGhost Xbox One + Xbox360 apps"
+        },
+        {
+          "type": "ios",
+          "target": "CyberGhost iOS application"
+        },
+        {
+          "type": "other",
+          "target": "CyberGhost macOS application"
+        },
+        {
+          "type": "website",
+          "target": "cyberghost.app"
+        },
+        {
+          "type": "website",
+          "target": "cyberghost.com"
+        },
+        {
+          "type": "website",
+          "target": "cyberghostvpn.com"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "Dell Technologies Application Bug Bounty",
     "url": "https://bugcrowd.com/dell-com",
     "allows_disclosure": true,
@@ -4193,6 +4315,18 @@
         {
           "type": "other",
           "target": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t"
+        },
+        {
+          "type": "website",
+          "target": "https://console.delltechnologies.com/nav/administration"
+        },
+        {
+          "type": "website",
+          "target": "https://console.delltechnologies.com/nav/billing"
+        },
+        {
+          "type": "website",
+          "target": "https://console.delltechnologies.com/nav/invoice"
         }
       ],
       "out_of_scope": [
@@ -4211,6 +4345,18 @@
         {
           "type": "website",
           "target": "https://console.delltechnologies.com/ "
+        },
+        {
+          "type": "website",
+          "target": "https://console.delltechnologies.com/nav/catalog"
+        },
+        {
+          "type": "website",
+          "target": "https://console.delltechnologies.com/nav/subscriptions"
+        },
+        {
+          "type": "website",
+          "target": "https://console.delltechnologies.com/nav/support"
         },
         {
           "type": "website",
@@ -4289,7 +4435,7 @@
     "allows_disclosure": true,
     "managed_by_bugcrowd": true,
     "safe_harbor": "none",
-    "max_payout": 50000,
+    "max_payout": 0,
     "targets": {
       "in_scope": [
         {
@@ -4828,6 +4974,85 @@
     }
   },
   {
+    "name": "Dropbox",
+    "url": "https://bugcrowd.com/dropbox",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "partial",
+    "max_payout": 10000,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.docsend.com"
+        },
+        {
+          "type": "website",
+          "target": "*.dropbox.com    "
+        },
+        {
+          "type": "website",
+          "target": "*.dropboxforum.com"
+        },
+        {
+          "type": "website",
+          "target": "*.hellofax.com"
+        },
+        {
+          "type": "website",
+          "target": "*.hellosign.com"
+        },
+        {
+          "type": "website",
+          "target": "*.helloworks.com"
+        },
+        {
+          "type": "android",
+          "target": "Dropbox Android App"
+        },
+        {
+          "type": "other",
+          "target": "Dropbox Capture Windows Desktop App "
+        },
+        {
+          "type": "other",
+          "target": "Dropbox Capture macOS Desktop App"
+        },
+        {
+          "type": "other",
+          "target": "Dropbox Desktop Application"
+        },
+        {
+          "type": "ios",
+          "target": "Dropbox EMM iOS"
+        },
+        {
+          "type": "android",
+          "target": "Dropbox Paper Android App"
+        },
+        {
+          "type": "ios",
+          "target": "Dropbox Paper iOS app"
+        },
+        {
+          "type": "android",
+          "target": "Dropbox Sign (formerly HelloSign) Android App"
+        },
+        {
+          "type": "ios",
+          "target": "Dropbox iOS app"
+        },
+        {
+          "type": "other",
+          "target": "Paper Desktop Application"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "eazyBI",
     "url": "https://bugcrowd.com/eazybi",
     "allows_disclosure": false,
@@ -5078,6 +5303,26 @@
     "max_payout": 0,
     "targets": {
       "in_scope": [
+        {
+          "type": "website",
+          "target": "*.FEDCENTER.GOV"
+        },
+        {
+          "type": "website",
+          "target": "*.FRTR.GOV"
+        },
+        {
+          "type": "website",
+          "target": "*.GLNPO.GOV"
+        },
+        {
+          "type": "website",
+          "target": "*.SUSTAINABILITY.GOV"
+        },
+        {
+          "type": "website",
+          "target": "*.URBANWATERS.GOV"
+        },
         {
           "type": "website",
           "target": "*.airknowledge.gov"
@@ -5957,6 +6202,25 @@
     }
   },
   {
+    "name": "GoPro Awards Webapp Public Program",
+    "url": "https://bugcrowd.com/gopro-og-public",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 2500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "GoPro Awards"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "Gorillas",
     "url": "https://bugcrowd.com/gorillas-vdp",
     "allows_disclosure": true,
@@ -6461,10 +6725,6 @@
         {
           "type": "website",
           "target": "https://www.ifood.com.br"
-        },
-        {
-          "type": "website",
-          "target": "https://www.ifood.com.co"
         },
         {
           "type": "android",
@@ -7601,6 +7861,92 @@
     }
   },
   {
+    "name": "LifterLMS",
+    "url": "https://bugcrowd.com/lifterlms",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "other",
+          "target": "Advanced Course Add-on Plugins (Assignments and Quizzes)"
+        },
+        {
+          "type": "other",
+          "target": "Advanced Videos Add-On Plugin"
+        },
+        {
+          "type": "other",
+          "target": "Custom Fields Add-On Plugin"
+        },
+        {
+          "type": "api",
+          "target": "Distributed REST API"
+        },
+        {
+          "type": "other",
+          "target": "Groups Add-On Plugin"
+        },
+        {
+          "type": "other",
+          "target": "LifterLMS Core Plugin"
+        },
+        {
+          "type": "other",
+          "target": "PDFs Add-On Plugin"
+        },
+        {
+          "type": "other",
+          "target": "Payment Gateway Add-On Plugins (Stripe, PayPal, and Authorize.Net)"
+        },
+        {
+          "type": "other",
+          "target": "Social Learning Add-On Plugin"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "*.lifterlms.com"
+        },
+        {
+          "type": "api",
+          "target": "*.lifterlms.com/xmlrpc.php"
+        },
+        {
+          "type": "website",
+          "target": "*.myliftersite.com"
+        },
+        {
+          "type": "website",
+          "target": "academy.lifterlms.com"
+        },
+        {
+          "type": "website",
+          "target": "dev.lifterlms.com"
+        },
+        {
+          "type": "website",
+          "target": "https://lifterlms.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://myliftersite.com"
+        },
+        {
+          "type": "api",
+          "target": "lifterlms.com/xmlrpc.php"
+        },
+        {
+          "type": "website",
+          "target": "test.lifterlms.com"
+        }
+      ]
+    }
+  },
+  {
     "name": "Lime",
     "url": "https://bugcrowd.com/lime",
     "allows_disclosure": true,
@@ -7673,7 +8019,7 @@
   {
     "name": "Lucid Motors Vulnerability Disclosure Program",
     "url": "https://bugcrowd.com/lucidmotors-vdp",
-    "allows_disclosure": true,
+    "allows_disclosure": false,
     "managed_by_bugcrowd": true,
     "safe_harbor": "full",
     "max_payout": 0,
@@ -8242,33 +8588,29 @@
     }
   },
   {
-    "name": "Phrase Vulnerability Disclosure Program",
-    "url": "https://bugcrowd.com/memsource-vdp",
-    "allows_disclosure": false,
+    "name": "Mettle",
+    "url": "https://bugcrowd.com/mettle",
+    "allows_disclosure": true,
     "managed_by_bugcrowd": true,
-    "safe_harbor": "partial",
-    "max_payout": 0,
+    "safe_harbor": "none",
+    "max_payout": 5000,
     "targets": {
       "in_scope": [
         {
-          "type": "api",
-          "target": "http://api.phrase.com/"
+          "type": "other",
+          "target": "*.bbp-mettle.co.uk"
+        },
+        {
+          "type": "android",
+          "target": "Mettle Android Application"
+        },
+        {
+          "type": "ios",
+          "target": "Mettle iOS Application"
         },
         {
           "type": "website",
-          "target": "http://app.phrase.com/"
-        },
-        {
-          "type": "website",
-          "target": "http://phrase.com/"
-        },
-        {
-          "type": "website",
-          "target": "https://cloud9.memsource.com/"
-        },
-        {
-          "type": "api",
-          "target": "https://cloud9.memsource.com/web/docs/api"
+          "target": "https://ops-tool.internal.bbp-mettle.co.uk/"
         }
       ],
       "out_of_scope": [
@@ -9791,6 +10133,29 @@
     }
   },
   {
+    "name": "Office of Natural Resources Revenue",
+    "url": "https://bugcrowd.com/onrr-vdp",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.onrr.gov"
+        },
+        {
+          "type": "website",
+          "target": "revenuedata.doi.gov"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "Opera Public Bug Bounty",
     "url": "https://bugcrowd.com/opera",
     "allows_disclosure": true,
@@ -9801,7 +10166,31 @@
       "in_scope": [
         {
           "type": "website",
+          "target": "*.apex-football.com"
+        },
+        {
+          "type": "website",
+          "target": "*.dailyadvent.com"
+        },
+        {
+          "type": "api",
+          "target": "*.feednews.com"
+        },
+        {
+          "type": "website",
+          "target": "*.oleads.com"
+        },
+        {
+          "type": "api",
+          "target": "*.opera-mini.net"
+        },
+        {
+          "type": "website",
           "target": "*.opera.com"
+        },
+        {
+          "type": "api",
+          "target": "*.opera.news"
         },
         {
           "type": "other",
@@ -9810,6 +10199,14 @@
         {
           "type": "api",
           "target": "*.opera.technology"
+        },
+        {
+          "type": "website",
+          "target": "*.operafootball.com"
+        },
+        {
+          "type": "api",
+          "target": "*.operanewsapp.com"
         },
         {
           "type": "api",
@@ -9824,6 +10221,54 @@
           "target": "*.yoyogames.com"
         },
         {
+          "type": "api",
+          "target": "102.23.96.0/22"
+        },
+        {
+          "type": "api",
+          "target": "103.83.120.0/22"
+        },
+        {
+          "type": "api",
+          "target": "107.167.96.0/19"
+        },
+        {
+          "type": "api",
+          "target": "141.0.8.0/21"
+        },
+        {
+          "type": "api",
+          "target": "185.26.180.0/22"
+        },
+        {
+          "type": "api",
+          "target": "195.189.143.0/24"
+        },
+        {
+          "type": "api",
+          "target": "203.89.100.0/22"
+        },
+        {
+          "type": "api",
+          "target": "37.228.104.0/21"
+        },
+        {
+          "type": "api",
+          "target": "77.111.244.0/22"
+        },
+        {
+          "type": "api",
+          "target": "82.145.208.0/20"
+        },
+        {
+          "type": "api",
+          "target": "91.203.96.0/22"
+        },
+        {
+          "type": "android",
+          "target": "Apex Football"
+        },
+        {
           "type": "other",
           "target": "GameMaker Studio 2"
         },
@@ -9832,12 +10277,12 @@
           "target": "Loomi.tv"
         },
         {
-          "type": "android",
-          "target": "Opera GX for Android"
+          "type": "other",
+          "target": "Opera GX"
         },
         {
-          "type": "other",
-          "target": "Opera GX for Windows"
+          "type": "android",
+          "target": "Opera GX for Android"
         },
         {
           "type": "android",
@@ -9845,11 +10290,15 @@
         },
         {
           "type": "android",
-          "target": "Opera for Android "
+          "target": "Opera News"
         },
         {
           "type": "other",
-          "target": "Opera for Windows"
+          "target": "Opera PC"
+        },
+        {
+          "type": "android",
+          "target": "Opera for Android "
         },
         {
           "type": "api",
@@ -9874,6 +10323,10 @@
         {
           "type": "website",
           "target": "bugs.opera.com"
+        },
+        {
+          "type": "website",
+          "target": "cashback.opera.com"
         },
         {
           "type": "api",
@@ -9937,11 +10390,11 @@
         },
         {
           "type": "website",
-          "target": "www.opera.com"
+          "target": "www.gamemaker.io"
         },
         {
           "type": "website",
-          "target": "www.yoyogames.com"
+          "target": "www.opera.com"
         }
       ],
       "out_of_scope": [
@@ -9964,6 +10417,10 @@
         {
           "type": "website",
           "target": "certs.opera.com"
+        },
+        {
+          "type": "other",
+          "target": "checkout.opera.com"
         },
         {
           "type": "website",
@@ -10030,80 +10487,6 @@
         {
           "type": "website",
           "target": "Opsgenie Production (billing systems, third parties)"
-        }
-      ]
-    }
-  },
-  {
-    "name": "Optimizely",
-    "url": "https://bugcrowd.com/optimizely",
-    "allows_disclosure": false,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "partial",
-    "max_payout": 2500,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "https://accounts.welcomesoftware.com/"
-        },
-        {
-          "type": "website",
-          "target": "https://analytics.welcomesoftware.com/"
-        },
-        {
-          "type": "api",
-          "target": "https://api.optimizely.com/"
-        },
-        {
-          "type": "api",
-          "target": "https://api.prod.optimizely.com"
-        },
-        {
-          "type": "api",
-          "target": "https://api.welcomesoftware.com/ "
-        },
-        {
-          "type": "website",
-          "target": "https://app.optimizely.com/"
-        },
-        {
-          "type": "website",
-          "target": "https://app.welcomesoftware.com/"
-        },
-        {
-          "type": "website",
-          "target": "https://cdn-app.welcomesoftware.com/"
-        },
-        {
-          "type": "website",
-          "target": "https://cdn-pci.optimizely.com/"
-        },
-        {
-          "type": "website",
-          "target": "https://cdn.optimizely.com/"
-        },
-        {
-          "type": "website",
-          "target": "https://dxc.episerver.net/ "
-        },
-        {
-          "type": "website",
-          "target": "https://optimizely-edge.com"
-        },
-        {
-          "type": "website",
-          "target": "https://paasportal.episerver.net/"
-        },
-        {
-          "type": "website",
-          "target": "https://paasportal.episerver.net/api/v1.0/"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "website",
-          "target": "https://www.optimizely.com/"
         }
       ]
     }
@@ -10389,11 +10772,34 @@
       "in_scope": [
         {
           "type": "other",
-          "target": "Latest ZAP version (2.11.1)"
+          "target": "Latest ZAP version (2.12.0)"
         },
         {
           "type": "website",
           "target": "https://www.zaproxy.org"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
+    "name": "Office of Wildland Fire - Vulnerability Disclosure Program",
+    "url": "https://bugcrowd.com/owf-vdp",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.firenet.gov"
+        },
+        {
+          "type": "website",
+          "target": "*.nfpors.gov\t"
         }
       ],
       "out_of_scope": [
@@ -10505,6 +10911,41 @@
     }
   },
   {
+    "name": "Phrase Vulnerability Disclosure Program",
+    "url": "https://bugcrowd.com/phrase-vdp",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "partial",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "api",
+          "target": "http://api.phrase.com/"
+        },
+        {
+          "type": "website",
+          "target": "http://app.phrase.com/"
+        },
+        {
+          "type": "website",
+          "target": "http://phrase.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://cloud9.memsource.com/"
+        },
+        {
+          "type": "api",
+          "target": "https://cloud9.memsource.com/web/docs/api"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "Pinterest",
     "url": "https://bugcrowd.com/pinterest",
     "allows_disclosure": true,
@@ -10602,6 +11043,148 @@
         {
           "type": "website",
           "target": "www.planethoster.com"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
+    "name": "Private Internet Access",
+    "url": "https://bugcrowd.com/privateinternetaccess",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1250,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.privateinternetaccess.com"
+        },
+        {
+          "type": "api",
+          "target": "PIA APIs"
+        },
+        {
+          "type": "android",
+          "target": "PIA Android application"
+        },
+        {
+          "type": "other",
+          "target": "PIA Chrome extension"
+        },
+        {
+          "type": "other",
+          "target": "PIA Firefox extension"
+        },
+        {
+          "type": "other",
+          "target": "PIA Linux application"
+        },
+        {
+          "type": "other",
+          "target": "PIA Opera extension"
+        },
+        {
+          "type": "hardware",
+          "target": "PIA Router Firmware"
+        },
+        {
+          "type": "other",
+          "target": "PIA VPN servers"
+        },
+        {
+          "type": "other",
+          "target": "PIA Windows application"
+        },
+        {
+          "type": "ios",
+          "target": "PIA iOS application"
+        },
+        {
+          "type": "other",
+          "target": "PIA macOS application"
+        },
+        {
+          "type": "website",
+          "target": "piaservers.com"
+        },
+        {
+          "type": "website",
+          "target": "privateinternetaccess.com"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
+    "name": "Prosus",
+    "url": "https://bugcrowd.com/prosus-og",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "none",
+    "max_payout": 1250,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "analytics-admin.prosus.com"
+        },
+        {
+          "type": "website",
+          "target": "analytics.prosus.com"
+        },
+        {
+          "type": "website",
+          "target": "azreporting.naspers.com/vpn/index.html"
+        },
+        {
+          "type": "website",
+          "target": "brandportal.naspers.com"
+        },
+        {
+          "type": "website",
+          "target": "cfc.naspers.com"
+        },
+        {
+          "type": "website",
+          "target": "dashboard.naspers.com"
+        },
+        {
+          "type": "website",
+          "target": "dealflow.prosus.com"
+        },
+        {
+          "type": "api",
+          "target": "dealflowapi.prosus.com"
+        },
+        {
+          "type": "website",
+          "target": "legal.prosus.com"
+        },
+        {
+          "type": "website",
+          "target": "peopleview.naspers.com"
+        },
+        {
+          "type": "website",
+          "target": "prosus.com"
+        },
+        {
+          "type": "website",
+          "target": "publicpolicy.naspers.com"
+        },
+        {
+          "type": "website",
+          "target": "tracker.naspers.com"
+        },
+        {
+          "type": "website",
+          "target": "www.naspers.com"
         }
       ],
       "out_of_scope": [
@@ -10708,6 +11291,10 @@
       "in_scope": [
         {
           "type": "website",
+          "target": " https://rari.foundation"
+        },
+        {
+          "type": "website",
           "target": "admin.rarible.com"
         },
         {
@@ -10780,7 +11367,7 @@
     }
   },
   {
-    "name": "Rec Room Ongoing Bug Bounty",
+    "name": "Rec Room Video Games",
     "url": "https://bugcrowd.com/recroom-og",
     "allows_disclosure": true,
     "managed_by_bugcrowd": true,
@@ -10807,6 +11394,10 @@
         {
           "type": "other",
           "target": "PlayStation 5"
+        },
+        {
+          "type": "other",
+          "target": "Rec Room PC Standalone App"
         },
         {
           "type": "other",
@@ -10910,6 +11501,10 @@
       ],
       "out_of_scope": [
         {
+          "type": "website",
+          "target": "Contact forms on https://www.redoxengine.com"
+        },
+        {
           "type": "api",
           "target": "api.redoxengine.com"
         },
@@ -10940,14 +11535,6 @@
         {
           "type": "website",
           "target": "https://sso.redoxengine.com"
-        },
-        {
-          "type": "website",
-          "target": "https://www.redoxengine.com/contact-us/"
-        },
-        {
-          "type": "other",
-          "target": "https://www.redoxengine.com/get-started/"
         }
       ]
     }
@@ -11233,7 +11820,7 @@
     "url": "https://bugcrowd.com/segment",
     "allows_disclosure": true,
     "managed_by_bugcrowd": true,
-    "safe_harbor": "none",
+    "safe_harbor": "full",
     "max_payout": 2500,
     "targets": {
       "in_scope": [
@@ -11289,7 +11876,10 @@
         }
       ],
       "out_of_scope": [
-
+        {
+          "type": "website",
+          "target": "*.nsw.gov.au"
+        }
       ]
     }
   },
@@ -11654,12 +12244,12 @@
     "targets": {
       "in_scope": [
         {
-          "type": "api",
-          "target": "*.repostnetwork.com"
-        },
-        {
           "type": "website",
           "target": "*.s-cloud.net"
+        },
+        {
+          "type": "api",
+          "target": "*.services.repostnetwork.com"
         },
         {
           "type": "api",
@@ -11676,10 +12266,6 @@
         {
           "type": "ios",
           "target": "SoundCloud iOS app"
-        },
-        {
-          "type": "website",
-          "target": "repostnetwork.com"
         },
         {
           "type": "website",
@@ -13102,6 +13688,44 @@
     }
   },
   {
+    "name": "ThousandEyes Bug Bounty",
+    "url": "https://bugcrowd.com/thousandeyes-og",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "none",
+    "max_payout": 4500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "other",
+          "target": "ThousandEyes Endpoint Agent "
+        },
+        {
+          "type": "other",
+          "target": "ThousandEyes Enterprise Agent"
+        },
+        {
+          "type": "api",
+          "target": "https://api.thousandeyes.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://app.thousandeyes.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.thousandeyes.com/"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "https://blog.thousandeyes.com/"
+        }
+      ]
+    }
+  },
+  {
     "name": "Trello",
     "url": "https://bugcrowd.com/trello",
     "allows_disclosure": true,
@@ -13332,15 +13956,15 @@
         },
         {
           "type": "website",
+          "target": "lmt.tripadvisor.com"
+        },
+        {
+          "type": "website",
           "target": "spotlight-dev.tripadvisor.com"
         },
         {
           "type": "website",
           "target": "spotlight.tripadvisor.*"
-        },
-        {
-          "type": "website",
-          "target": "www.tripadvisor.*/Articles"
         },
         {
           "type": "website",
@@ -13598,7 +14222,7 @@
     "url": "https://bugcrowd.com/twilio",
     "allows_disclosure": true,
     "managed_by_bugcrowd": true,
-    "safe_harbor": "none",
+    "safe_harbor": "full",
     "max_payout": 9500,
     "targets": {
       "in_scope": [
@@ -14889,6 +15513,14 @@
         },
         {
           "type": "website",
+          "target": "us.therollingcone.com"
+        },
+        {
+          "type": "website",
+          "target": "uukpf.co.uk"
+        },
+        {
+          "type": "website",
           "target": "vaseline.com.tr"
         },
         {
@@ -14898,6 +15530,10 @@
         {
           "type": "website",
           "target": "www.sedal.com.co/home.html"
+        },
+        {
+          "type": "website",
+          "target": "www.urbanmonkey.cz"
         },
         {
           "type": "website",
@@ -15600,7 +16236,7 @@
   {
     "name": "Department of Veterans Affairs",
     "url": "https://bugcrowd.com/va-vdp",
-    "allows_disclosure": true,
+    "allows_disclosure": false,
     "managed_by_bugcrowd": true,
     "safe_harbor": "none",
     "max_payout": 0,
@@ -16423,6 +17059,10 @@
         },
         {
           "type": "website",
+          "target": "https://wootr.com/"
+        },
+        {
+          "type": "website",
           "target": "https://x.woo.org/spot"
         }
       ],
@@ -16459,6 +17099,68 @@
       ],
       "out_of_scope": [
 
+      ]
+    }
+  },
+  {
+    "name": "Lightspeed Retail (X-Series)",
+    "url": "https://bugcrowd.com/x-series",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 6250,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": " developers.vendhq.com"
+        },
+        {
+          "type": "website",
+          "target": "payment-connectors.vendhq.com"
+        },
+        {
+          "type": "website",
+          "target": "secure.vendhq.com"
+        },
+        {
+          "type": "website",
+          "target": "www.vendhq.com"
+        },
+        {
+          "type": "website",
+          "target": "yourstore.vendhq.com"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "partnerportal.vendhq.com"
+        },
+        {
+          "type": "website",
+          "target": "partners.vendhq.com"
+        },
+        {
+          "type": "website",
+          "target": "support.vendhq.com"
+        },
+        {
+          "type": "website",
+          "target": "track.api.vendhq.com"
+        },
+        {
+          "type": "website",
+          "target": "vendhq.force.com"
+        },
+        {
+          "type": "website",
+          "target": "vendimageuploadcdn.global.ssl.fastly.net"
+        },
+        {
+          "type": "website",
+          "target": "your-store.vendecommerce.com"
+        }
       ]
     }
   },
