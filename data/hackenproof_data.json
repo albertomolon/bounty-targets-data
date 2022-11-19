@@ -328,7 +328,7 @@
         {
           "target": "Testnet Bridge Enclave Addresses: Avalanche",
           "type": "Web3",
-          "instruction": "0x59c35594563fc2c9ebff4cdb905a142d1198daf5",
+          "instruction": "0x93753a9ea4c9d6eeed9f64ea92e97ce1f5fbaede",
           "severity": "Critical",
           "reward": "Bounty"
         },
@@ -1218,7 +1218,7 @@
     "id": "/coinsbit/coinsbit",
     "name": "Coinsbit",
     "url": "https://hackenproof.com/coinsbit/coinsbit",
-    "archived": false,
+    "archived": true,
     "targets": {
       "in_scope": [
         {
@@ -1668,7 +1668,7 @@
     "id": "/ftx/ftx-exchange",
     "name": "FTX Exchange",
     "url": "https://hackenproof.com/ftx/ftx-exchange",
-    "archived": false,
+    "archived": true,
     "targets": {
       "in_scope": [
         {
@@ -1709,7 +1709,7 @@
     "id": "/ftx/ftx-tr-exchange",
     "name": "FTX TR Exchange",
     "url": "https://hackenproof.com/ftx/ftx-tr-exchange",
-    "archived": false,
+    "archived": true,
     "targets": {
       "in_scope": [
         {
@@ -1736,7 +1736,7 @@
     "id": "/ftx/ftx-us-exchange",
     "name": "FTX US Exchange",
     "url": "https://hackenproof.com/ftx/ftx-us-exchange",
-    "archived": false,
+    "archived": true,
     "targets": {
       "in_scope": [
         {
@@ -2505,9 +2505,9 @@
     }
   },
   {
-    "id": "/pagoda/near-protocol",
+    "id": "/near/near-protocol",
     "name": "NEAR Protocol",
-    "url": "https://hackenproof.com/pagoda/near-protocol",
+    "url": "https://hackenproof.com/near/near-protocol",
     "archived": false,
     "targets": {
       "in_scope": [
@@ -3400,6 +3400,46 @@
           "target": "Android Wallet",
           "type": "Android",
           "instruction": "https://play.google.com/store/apps/details?id=com.vechain.wallet",
+          "severity": "Critical",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
+    "id": "/virtuswap/virtuswap-dex-app-1",
+    "name": "VirtuSwap DEX APP",
+    "url": "https://hackenproof.com/virtuswap/virtuswap-dex-app-1",
+    "archived": false,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://virtuswap.io/",
+          "type": "Web",
+          "instruction": "",
+          "severity": "High",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
+    "id": "/virtuswap/virtuswap-smart-contract",
+    "name": "VirtuSwap Smart Contract",
+    "url": "https://hackenproof.com/virtuswap/virtuswap-smart-contract",
+    "archived": false,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://github.com/Virtuswap/v1-core/tree/main/contracts",
+          "type": "Protocol",
+          "instruction": "",
           "severity": "Critical",
           "reward": "Bounty"
         }

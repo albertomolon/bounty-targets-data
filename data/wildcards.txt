@@ -52,6 +52,12 @@
 *.bitdefender.com
 *.bitdefender.net
 *.bitdiscovery.com
+*.bitget.com
+*.blackbaud.com
+*.blackbaud.net
+*.blackbaudhosting.com
+*.blackbaudondemand.com
+*.justgiving.com
 *.abandonedmines.gov
 *.blm.gov
 *.nifc.gov
@@ -219,7 +225,6 @@
 *.fireeyecloud.com
 *.flourish.studio
 *.xyzbmojn.net
-*.fmc.gov
 *.frtib.gov
 *.tsp.gov
 *.alertaenlinea.gov
@@ -246,15 +251,16 @@
 *.intendia.com
 *.lat-lon.com
 *.mobicorp.com
+*.neutralvehicle.com
 *.webtechwireless.com
 *.healthifyme.com
-*.hostgator.com
 *.hostgator.com.br
 *.hs-sites.com
 *.hubapi.com
 *.hubspot.com
 *.hubspot.net
 *.hubspotemail.net
+*.hummingbird.co
 *.cloudvector.com
 *.imperva.com
 *.incapsula.com
@@ -384,6 +390,7 @@ api*.netflix.com
 *.rgbk.com
 *.sabal.com
 *.rrb.gov
+*.seagate.com
 *.aips-internal.com
 *.certsy.com
 *.certsynonprod.com
@@ -699,9 +706,13 @@ www.*mongodb.com
 *.code.gov
 *.login.gov
 *.search.gov
+*.emakina.com
+*.emakina.group
 *.epam.com
 *.lab.epam.com
 *.projects.epam.com
+*.varonis.com
+*.varonis.io
 *.krisp.ai
 *.lacework.net
 *.findaya.co.id
@@ -885,9 +896,9 @@ onboarding-*.cloud.com
 *.jimdofree.com
 *.jimdoreseller.com
 *.jimdosite.com
-*.blockfi.com
 *.tiktok.com
 *.tiktokv.com
+*.aig.co.jp
 *.aig.com
 *.corebridgefinancial.com
 *.myretirementmanager.com
@@ -1067,6 +1078,13 @@ www.amazon.*
 *.accountscore.com
 *.accountscore.net
 *.ansoniacreditdata.com
+*.appriss.com
+*.appriss.net
+*.apprissafety.com
+*.apprissgomobile.com
+*.apprissinsights.com
+*.apprissinsights.net
+*.apprissmobile.com
 *.datacredito.com
 *.datacredito.com.do
 *.datacredito.info
@@ -1223,6 +1241,7 @@ h1-*your-own-instance*.cloud.mattermost.com
 *.ucverse.com
 *.wavecell.com
 vcc-*.8x8.com
+*.myritzcarltonresidences.com
 *.ritzcarltonyachtcollection.com
 *uat.marriott.com
 dcfgateway*.marriott.com
@@ -1289,7 +1308,6 @@ www.paypal-*.com
 *.skygamingcontent.com
 *.skypoker.com
 *.skyvegas.com
-online.*.skybingo.com
 *.bitmex.com
 *.crowdstrike.com
 *.humio.com
@@ -1386,13 +1404,9 @@ online.*.skybingo.com
 *api.trustpilot.com
 *authenticate.trustpilot.com
 *b2b.trustpilot.com
-*blog.trustpilot.com
 *business.trustpilot.com
-*consumer-auth.trustpilot.com
 *emailsignature.trustpilot.com
 *invitations-api.trustpilot.com
-*ipo.trustpilot.com
-*jobs.trustpilot.com
 *legal.trustpilot.com
 *share.trustpilot.com
 *signup.business.trustpilot.com
@@ -1471,6 +1485,7 @@ munin-*.wordpress.org
 *.maximum.nl
 *.algolia.net
 *.algolianet.com
+*.grab-sure.com
 *.grab.co
 *.grab.com
 *.grabpay.com
@@ -1528,6 +1543,7 @@ munin-*.wordpress.org
 *.gitlab.net
 *.gitlab.org
 *.gitlap.com
+*.getrevue.co
 *.twimg.com
 *.twitter.com
 *.vine.co
@@ -1541,6 +1557,7 @@ munin-*.wordpress.org
 *.urbandictionary.store
 *.urbanup.com
 *.cloudflare.com
+*.cloudflarepartners.com
 *.teams.cloudflare.com
 *.srvcs.tumblr.com
 *.tumblr.com
@@ -1704,6 +1721,8 @@ munin-*.wordpress.org
 *.telenettv.be
 *.yeloplay.be
 *.tempo-team.*
+*.tomorrowland.com
+*.aroundtheworld.tomorrowland.com
 *.trouw.nl
 *.twago.fr
 *.twago.it
@@ -1753,6 +1772,8 @@ munin-*.wordpress.org
 *.dm.gg
 *.lazada-seller.cn
 *.muslimpro.com
+*.ovo.id
+*.taralite.com
 matrix.agent.*.tchap.gouv.fr
 *.telenor.se
 *.bredbandsbolaget.se

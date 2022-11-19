@@ -969,6 +969,10 @@
         },
         {
           "type": "other",
+          "target": "Add watchers at issue creation - Cloud - https://marketplace.atlassian.com/apps/1229183/add-watchers-at-issue-creation?hosting=cloud"
+        },
+        {
+          "type": "other",
           "target": "Admin Kit for Confluence Cloud - Cloud - https://marketplace.atlassian.com/apps/1225691/admin-kit-for-confluence-cloud?hosting=cloud"
         },
         {
@@ -1026,6 +1030,118 @@
         {
           "type": "other",
           "target": "Asana Importer Plugin for Jira - Server - https://marketplace.atlassian.com/apps/1213440/asana-importer-plugin-for-jira?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets - AWS Integration - DataCenter - https://marketplace.atlassian.com/apps/1218757/assets-aws-integration?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets - AWS Integration - Server - https://marketplace.atlassian.com/apps/1218757/assets-aws-integration?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Azure Integration - DataCenter - https://marketplace.atlassian.com/apps/1218974/assets-azure-integration?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Azure Integration - Server - https://marketplace.atlassian.com/apps/1218974/assets-azure-integration?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets - DataCenter - https://marketplace.atlassian.com/apps/1212137/assets?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Device42 Integration - DataCenter - https://marketplace.atlassian.com/apps/1219632/assets-device42-integration?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Device42 Integration - Server - https://marketplace.atlassian.com/apps/1219632/assets-device42-integration?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Google Cloud Integration - DataCenter - https://marketplace.atlassian.com/apps/1219212/assets-google-cloud-integration?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Google Cloud Integration - Server - https://marketplace.atlassian.com/apps/1219212/assets-google-cloud-integration?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Jamf Integration - DataCenter - https://marketplace.atlassian.com/apps/1219908/assets-jamf-integration?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Jamf Integration - Server - https://marketplace.atlassian.com/apps/1219908/assets-jamf-integration?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Jira & Bitbucket Integration - DataCenter - https://marketplace.atlassian.com/apps/1217750/assets-jira-bitbucket-integration?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Jira & Bitbucket Integration - Server - https://marketplace.atlassian.com/apps/1217750/assets-jira-bitbucket-integration?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Macro for Confluence - DataCenter - https://marketplace.atlassian.com/apps/1216074/assets-macro-for-confluence?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Macro for Confluence - Server - https://marketplace.atlassian.com/apps/1216074/assets-macro-for-confluence?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets - NVD Integration - DataCenter - https://marketplace.atlassian.com/apps/1220353/assets-nvd-integration?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets - NVD Integration - Server - https://marketplace.atlassian.com/apps/1220353/assets-nvd-integration?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets - SCCM Integration - DataCenter - https://marketplace.atlassian.com/apps/1219094/assets-sccm-integration?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets - SCCM Integration - Server - https://marketplace.atlassian.com/apps/1219094/assets-sccm-integration?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets - ServiceNow Integration - DataCenter - https://marketplace.atlassian.com/apps/1219561/assets-servicenow-integration?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets - ServiceNow Integration - Server - https://marketplace.atlassian.com/apps/1219561/assets-servicenow-integration?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Snow Integration - DataCenter - https://marketplace.atlassian.com/apps/1219298/assets-snow-integration?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Snow Integration - Server - https://marketplace.atlassian.com/apps/1219298/assets-snow-integration?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets - Tempo Integration - DataCenter - https://marketplace.atlassian.com/apps/1217751/assets-tempo-integration?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets Discovery - Cloud - https://marketplace.atlassian.com/apps/1214668/assets-discovery?hosting=cloud"
+        },
+        {
+          "type": "other",
+          "target": "Assets Discovery - DataCenter - https://marketplace.atlassian.com/apps/1214668/assets-discovery?hosting=datacenter"
+        },
+        {
+          "type": "other",
+          "target": "Assets Discovery - Server - https://marketplace.atlassian.com/apps/1214668/assets-discovery?hosting=server"
+        },
+        {
+          "type": "other",
+          "target": "Assets Tempo Integration - Server - https://marketplace.atlassian.com/apps/1217751/assets-tempo-integration?hosting=server"
         },
         {
           "type": "other",
@@ -1398,118 +1514,6 @@
         {
           "type": "other",
           "target": "Inbox Hook for Bitbucket Server - Server - https://marketplace.atlassian.com/apps/1211715/inbox-hook-for-bitbucket-server?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight - Asset Management - DataCenter - https://marketplace.atlassian.com/apps/1212137/insight-asset-management?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight AWS Integration - DataCenter - https://marketplace.atlassian.com/apps/1218757/insight-aws-integration?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight AWS Integration - Server - https://marketplace.atlassian.com/apps/1218757/insight-aws-integration?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight Azure Integration - DataCenter - https://marketplace.atlassian.com/apps/1218974/insight-azure-integration?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight Azure Integration - Server - https://marketplace.atlassian.com/apps/1218974/insight-azure-integration?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight Device42 Integration - DataCenter - https://marketplace.atlassian.com/apps/1219632/insight-device42-integration?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight Device42 Integration - Server - https://marketplace.atlassian.com/apps/1219632/insight-device42-integration?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight Discovery - Cloud - https://marketplace.atlassian.com/apps/1214668/insight-discovery?hosting=cloud"
-        },
-        {
-          "type": "other",
-          "target": "Insight Discovery - DataCenter - https://marketplace.atlassian.com/apps/1214668/insight-discovery?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight Discovery - Server - https://marketplace.atlassian.com/apps/1214668/insight-discovery?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight Google Cloud Integration - DataCenter - https://marketplace.atlassian.com/apps/1219212/insight-google-cloud-integration?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight Google Cloud Integration - Server - https://marketplace.atlassian.com/apps/1219212/insight-google-cloud-integration?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight Jamf Integration - DataCenter - https://marketplace.atlassian.com/apps/1219908/insight-jamf-integration?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight Jamf Integration - Server - https://marketplace.atlassian.com/apps/1219908/insight-jamf-integration?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight Jira & Bitbucket Integration - DataCenter - https://marketplace.atlassian.com/apps/1217750/insight-jira-bitbucket-integration?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight Jira & Bitbucket Integration - Server - https://marketplace.atlassian.com/apps/1217750/insight-jira-bitbucket-integration?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight Macro for Confluence - DataCenter - https://marketplace.atlassian.com/apps/1216074/insight-macro-for-confluence?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight Macro for Confluence - Server - https://marketplace.atlassian.com/apps/1216074/insight-macro-for-confluence?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight NVD Integration - DataCenter - https://marketplace.atlassian.com/apps/1220353/insight-nvd-integration?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight NVD Integration - Server - https://marketplace.atlassian.com/apps/1220353/insight-nvd-integration?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight SCCM Integration - DataCenter - https://marketplace.atlassian.com/apps/1219094/insight-sccm-integration?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight SCCM Integration - Server - https://marketplace.atlassian.com/apps/1219094/insight-sccm-integration?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight ServiceNow Integration - DataCenter - https://marketplace.atlassian.com/apps/1219561/insight-servicenow-integration?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight ServiceNow Integration - Server - https://marketplace.atlassian.com/apps/1219561/insight-servicenow-integration?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight Snow Integration - DataCenter - https://marketplace.atlassian.com/apps/1219298/insight-snow-integration?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight Snow Integration - Server - https://marketplace.atlassian.com/apps/1219298/insight-snow-integration?hosting=server"
-        },
-        {
-          "type": "other",
-          "target": "Insight Tempo Integration - DataCenter - https://marketplace.atlassian.com/apps/1217751/insight-tempo-integration?hosting=datacenter"
-        },
-        {
-          "type": "other",
-          "target": "Insight Tempo Integration - Server - https://marketplace.atlassian.com/apps/1217751/insight-tempo-integration?hosting=server"
         },
         {
           "type": "other",
@@ -2091,51 +2095,9 @@
     }
   },
   {
-    "name": "BigBrassBand",
-    "url": "https://bugcrowd.com/bigbrassband",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "none",
-    "max_payout": 2500,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "CI/CD For Jira - https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview"
-        },
-        {
-          "type": "website",
-          "target": "Git Integration for Jira - Cloud Hosted - https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview"
-        },
-        {
-          "type": "website",
-          "target": "Git Integration for Jira - Data Center Hosted - https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=datacenter&tab=overview"
-        },
-        {
-          "type": "website",
-          "target": "Git Integration for Jira - Server Hosted - https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=overview"
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "website",
-          "target": "Any Atlassian owned property, including the Atlassian marketplace itself ( http://marketplace.atlassian.com  ) "
-        },
-        {
-          "type": "website",
-          "target": "The BigBrassBand Customer Service Desks (https://bigbrassband.atlassian.net/servicedesk/customer/portals) which are intentionally public, and open to anyone to submit support tickets."
-        }
-      ]
-    }
-  },
-  {
     "name": "BigCommerce",
     "url": "https://bugcrowd.com/bigcommerce",
-    "allows_disclosure": true,
+    "allows_disclosure": false,
     "managed_by_bugcrowd": true,
     "safe_harbor": "none",
     "max_payout": 2500,
@@ -2417,6 +2379,82 @@
       ],
       "out_of_scope": [
 
+      ]
+    }
+  },
+  {
+    "name": "Bitget",
+    "url": "https://bugcrowd.com/bitget-og",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.bitget.com"
+        },
+        {
+          "type": "api",
+          "target": "Bitget API"
+        },
+        {
+          "type": "android",
+          "target": "Bitget Android App"
+        },
+        {
+          "type": "ios",
+          "target": "Bitget iOS App"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "https://affiliates.bitget.com/login"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Blackbaud Vulnerability Disclosure Program",
+    "url": "https://bugcrowd.com/blackbaud-vdp",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://*.blackbaud.com/*"
+        },
+        {
+          "type": "website",
+          "target": "https://*.blackbaud.net/*"
+        },
+        {
+          "type": "website",
+          "target": "https://*.blackbaudhosting.com/*"
+        },
+        {
+          "type": "website",
+          "target": "https://*.blackbaudondemand.com/*"
+        },
+        {
+          "type": "website",
+          "target": "https://*.justgiving.com/"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "http://community.blackbaud.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://app.blackbaud.com/hostnet"
+        }
       ]
     }
   },
@@ -3308,7 +3346,7 @@
     }
   },
   {
-    "name": "ClickHouse: Open-Source Bug Bounty Program",
+    "name": "ClickHouse",
     "url": "https://bugcrowd.com/clickhouse",
     "allows_disclosure": true,
     "managed_by_bugcrowd": true,
@@ -3318,22 +3356,19 @@
       "in_scope": [
         {
           "type": "other",
+          "target": "ClickHouse Cloud environment hosted by ClickHouse"
+        },
+        {
+          "type": "website",
+          "target": "https://clickhouse.cloud/"
+        },
+        {
+          "type": "other",
           "target": "https://github.com/ClickHouse/ClickHouse"
         }
       ],
       "out_of_scope": [
-        {
-          "type": "other",
-          "target": "ClickHouse Cloud environment hosted by ClickHouse"
-        },
-        {
-          "type": "other",
-          "target": "Third party websites or systems hosted by non-ClickHouse entities that ClickHouse staff use"
-        },
-        {
-          "type": "website",
-          "target": "https://clickhouse.com/"
-        }
+
       ]
     }
   },
@@ -3963,15 +3998,15 @@
           "target": "All API SDKs"
         },
         {
-          "type": "other",
+          "type": "api",
           "target": "All Constant Contact APIs - api.constantcontact.com"
         },
         {
-          "type": "other",
+          "type": "website",
           "target": "All Constant Contact websites - *.constantcontact.com"
         },
         {
-          "type": "other",
+          "type": "website",
           "target": "Constant Contact mobile applications [iOS and Android]"
         }
       ],
@@ -5840,25 +5875,6 @@
     }
   },
   {
-    "name": "FEDERAL MARITIME COMMISSION - VDP",
-    "url": "https://bugcrowd.com/fmc-vdp",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "full",
-    "max_payout": 0,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "*.fmc.gov"
-        }
-      ],
-      "out_of_scope": [
-
-      ]
-    }
-  },
-  {
     "name": "FoxyCart",
     "url": "https://bugcrowd.com/foxycart",
     "allows_disclosure": true,
@@ -6130,6 +6146,10 @@
         },
         {
           "type": "website",
+          "target": "*.neutralvehicle.com"
+        },
+        {
+          "type": "website",
           "target": "*.smartchargerewards.com (Note: exceptions below)"
         },
         {
@@ -6145,6 +6165,10 @@
         {
           "type": "website",
           "target": "*.sentinelfm.com"
+        },
+        {
+          "type": "website",
+          "target": "careers.geotab.com"
         },
         {
           "type": "website",
@@ -6216,7 +6240,10 @@
         }
       ],
       "out_of_scope": [
-
+        {
+          "type": "other",
+          "target": "Everything Else"
+        }
       ]
     }
   },
@@ -6424,7 +6451,15 @@
       "in_scope": [
         {
           "type": "website",
-          "target": "*.hostgator.com"
+          "target": "www.checkout.hostgator.com "
+        },
+        {
+          "type": "website",
+          "target": "www.hostgator.com"
+        },
+        {
+          "type": "website",
+          "target": "www.portal.hostgator.com"
         }
       ],
       "out_of_scope": [
@@ -6499,7 +6534,7 @@
       "in_scope": [
         {
           "type": "website",
-          "target": "*.hostgator.com"
+          "target": "www.hostgator.com"
         }
       ],
       "out_of_scope": [
@@ -6604,6 +6639,33 @@
         {
           "type": "other",
           "target": "https://www.humblebundle.com/"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
+    "name": "Hummingbird VDP",
+    "url": "https://bugcrowd.com/hummingbird-vdp-ess",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.hummingbird.co"
+        },
+        {
+          "type": "website",
+          "target": "app.hummingbird.co"
+        },
+        {
+          "type": "website",
+          "target": "hummingbird.co"
         }
       ],
       "out_of_scope": [
@@ -6822,10 +6884,6 @@
         },
         {
           "type": "website",
-          "target": "https://hr.simplyhired-staging.com"
-        },
-        {
-          "type": "website",
           "target": "https://my.indeed.com"
         },
         {
@@ -6854,7 +6912,10 @@
         }
       ],
       "out_of_scope": [
-
+        {
+          "type": "website",
+          "target": "https://hr.simplyhired-staging.com"
+        }
       ]
     }
   },
@@ -8683,10 +8744,6 @@
           "target": "https://alumni-friends.monash.edu"
         },
         {
-          "type": "api",
-          "target": "https://mix.monash.edu/"
-        },
-        {
           "type": "website",
           "target": "https://monashcollege.edu.au"
         },
@@ -8701,6 +8758,18 @@
         {
           "type": "website",
           "target": "identity.monash.edu"
+        },
+        {
+          "type": "api",
+          "target": "mix-dev.monash.edu/*"
+        },
+        {
+          "type": "api",
+          "target": "mix-qat.monash.edu/*"
+        },
+        {
+          "type": "api",
+          "target": "mix.monash.edu/*"
         },
         {
           "type": "website",
@@ -11741,6 +11810,253 @@
     }
   },
   {
+    "name": "Seagate VDP",
+    "url": "https://bugcrowd.com/seagate-vdp",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.seagate.com"
+        },
+        {
+          "type": "api",
+          "target": "api.seagate.com"
+        },
+        {
+          "type": "api",
+          "target": "apistore.seagate.com"
+        },
+        {
+          "type": "api",
+          "target": "apps1.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "appstore-us.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "appstore.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "blog.lacie.com"
+        },
+        {
+          "type": "website",
+          "target": "blog.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "blogext.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "bloglacieext.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "branding.seagate.com/"
+        },
+        {
+          "type": "website",
+          "target": "charitychina.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "codereview.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "collective.lacie.com"
+        },
+        {
+          "type": "website",
+          "target": "computex.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "datapulse.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "drivetrust.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "eapps.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "embargoed.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "fs1.sts.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "http://solo.seagate.com/"
+        },
+        {
+          "type": "website",
+          "target": "intelligent.media.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "is.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "jira.corp.lyveminds.com"
+        },
+        {
+          "type": "website",
+          "target": "jts-ce.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "jts.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "jtslco.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "labs.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "lacie.com"
+        },
+        {
+          "type": "website",
+          "target": "lyvedogfood.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "lyveint.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "lyvetst.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "mapps.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "maxtor.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "meterserver.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "mybenefits.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "mypayroll.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "myportal.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "nassupport.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "partnerreg.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "pia.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "plm.dothill.com"
+        },
+        {
+          "type": "website",
+          "target": "portal-us.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "realtime-ext.okla.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "sca.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "seagategov.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "secureauth.sing.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "sftp.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "sftptest.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "sgbenefit.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "sgmedical.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "sgpayroll.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "solo-beta.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "solo.sing.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "ssl.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "tableauonline.seagate.com"
+        },
+        {
+          "type": "website",
+          "target": "verify.seagate.com"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "SEEK",
     "url": "https://bugcrowd.com/seek",
     "allows_disclosure": false,
@@ -12266,6 +12582,10 @@
         {
           "type": "ios",
           "target": "SoundCloud iOS app"
+        },
+        {
+          "type": "website",
+          "target": "http://artists.soundcloud.com/"
         },
         {
           "type": "website",
@@ -13854,19 +14174,11 @@
         },
         {
           "type": "api",
-          "target": "api.tapayments.com"
+          "target": "api.production.cde.tamg.cloud"
         },
         {
           "type": "api",
           "target": "api.tripadvisor.com"
-        },
-        {
-          "type": "api",
-          "target": "api1.tapayments.com"
-        },
-        {
-          "type": "api",
-          "target": "api2.tapayments.com"
         },
         {
           "type": "api",
@@ -15025,11 +15337,35 @@
         },
         {
           "type": "website",
+          "target": "https://magento.volle-truhe.at/\t"
+        },
+        {
+          "type": "website",
+          "target": "https://magento.volle-truhe.at/distributor/account/login/"
+        },
+        {
+          "type": "website",
           "target": "https://online.frisko.dk/B2B"
         },
         {
           "type": "website",
           "target": "https://online.frisko.dk/customer/account/login/"
+        },
+        {
+          "type": "website",
+          "target": "https://personalisedpgtips.co.uk/products/pg-tips-customisable-mug "
+        },
+        {
+          "type": "website",
+          "target": "https://regeneratenr5.com.br/"
+        },
+        {
+          "type": "website",
+          "target": "https://regeneratenr5.es/"
+        },
+        {
+          "type": "website",
+          "target": "https://regeneratenr5.it/"
         },
         {
           "type": "website",
@@ -15041,7 +15377,39 @@
         },
         {
           "type": "website",
+          "target": "https://shop.lakmesalon.in/"
+        },
+        {
+          "type": "website",
+          "target": "https://tryunilever.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://ubeautyzone.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://uclub.unilever.tw/"
+        },
+        {
+          "type": "website",
           "target": "https://unilever.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://unilever.shop/"
+        },
+        {
+          "type": "website",
+          "target": "https://unileverstaff.shop/"
+        },
+        {
+          "type": "website",
+          "target": "https://unishopus.com/account/login?checkout_url=/"
+        },
+        {
+          "type": "website",
+          "target": "https://ushop.co.ke/"
         },
         {
           "type": "website",
@@ -15114,6 +15482,10 @@
         {
           "type": "website",
           "target": "https://www.hellmanns.com/es/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.marmite.co.uk/the-marmite-shop.html"
         },
         {
           "type": "website",
@@ -15222,6 +15594,14 @@
         {
           "type": "website",
           "target": "https://www.pukkaherbs.com/us/en"
+        },
+        {
+          "type": "website",
+          "target": "https://www.regeneratenr5.co.uk/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.regeneratenr5.fr/"
         },
         {
           "type": "website",
@@ -15381,11 +15761,51 @@
         },
         {
           "type": "website",
+          "target": "https://www.tresemme.com/ph/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.tresemme.com/pl/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.tresemme.com/ru/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.tresemme.com/se/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.tresemme.com/sk/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.tresemme.com/th/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.tresemme.com/us/en/home.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.u-connect.co.in/"
+        },
+        {
+          "type": "website",
           "target": "https://www.ufs.com/"
         },
         {
           "type": "website",
+          "target": "https://www.unilever-pro-nutrition-sante.fr/"
+        },
+        {
+          "type": "website",
           "target": "https://www.unileverlife.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.unishopza.com/account/login?checkout_url=/"
         },
         {
           "type": "website",
@@ -15501,6 +15921,10 @@
         },
         {
           "type": "website",
+          "target": "https://zendium.shop/"
+        },
+        {
+          "type": "website",
           "target": "kwery.unileversolutions.com/us-en"
         },
         {
@@ -15509,7 +15933,27 @@
         },
         {
           "type": "website",
+          "target": "online.frisko.dk/"
+        },
+        {
+          "type": "website",
+          "target": "online.frisko.dk/customer/account/login/"
+        },
+        {
+          "type": "website",
           "target": "ufs.com/"
+        },
+        {
+          "type": "website",
+          "target": "uni-care.shop"
+        },
+        {
+          "type": "website",
+          "target": "unicornci.unileverservices.com"
+        },
+        {
+          "type": "website",
+          "target": "unileverfll.pl"
         },
         {
           "type": "website",
@@ -15533,7 +15977,55 @@
         },
         {
           "type": "website",
+          "target": "www.theushop.ca"
+        },
+        {
+          "type": "website",
+          "target": "www.tresemme.com/ua"
+        },
+        {
+          "type": "website",
+          "target": "www.tresemme.com/uk/home.html"
+        },
+        {
+          "type": "website",
+          "target": "www.tresemme.com/uk/preference-center/preference-optin.html"
+        },
+        {
+          "type": "website",
+          "target": "www.tresemme.com/us/en/home.html"
+        },
+        {
+          "type": "website",
+          "target": "www.tresemme.com/uy/home.html"
+        },
+        {
+          "type": "website",
+          "target": "www.tresemme.com/vn/home.html"
+        },
+        {
+          "type": "website",
+          "target": "www.tresemme.com/za/home.html"
+        },
+        {
+          "type": "website",
+          "target": "www.tresemmeprofissional.com.br"
+        },
+        {
+          "type": "website",
+          "target": "www.ufsplusprogram.com.my"
+        },
+        {
+          "type": "website",
           "target": "www.urbanmonkey.cz"
+        },
+        {
+          "type": "website",
+          "target": "www.ushopbd.com"
+        },
+        {
+          "type": "website",
+          "target": "www.ustore.lk"
         },
         {
           "type": "website",

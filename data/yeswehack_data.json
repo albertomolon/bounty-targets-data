@@ -1419,6 +1419,57 @@
     }
   },
   {
+    "id": "ovo-bug-bounty-program",
+    "name": "OVO Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 3000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://play.google.com/store/apps/details?id=ovo.id",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/ID/app/id1142114207",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "*.ovo.id",
+          "type": "web-application"
+        },
+        {
+          "target": "*.taralite.com",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Staging/Development/UAT environments are considered out-of-scope, such as:",
+          "type": "other"
+        },
+        {
+          "target": "- *.byte-stack.net",
+          "type": "other"
+        },
+        {
+          "target": "- *.dududev",
+          "type": "other"
+        },
+        {
+          "target": "- *.uat-ovo.net",
+          "type": "other"
+        },
+        {
+          "target": "and other assets that might not be explicitly listed.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
     "id": "olvid-the-most-secure-messaging-app-in-the-world",
     "name": "Olvid - Open source end-to-end encrypted messaging",
     "public": true,
@@ -1699,6 +1750,117 @@
     }
   },
   {
+    "id": "swapcard",
+    "name": "Swapcard",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 0,
+    "max_bounty": 2000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "api.swapcard.com",
+          "type": "api"
+        },
+        {
+          "target": "chat-api.swapcard.com/graphql",
+          "type": "api"
+        },
+        {
+          "target": "developer.swapcard.com/event-admin/graphql",
+          "type": "api"
+        },
+        {
+          "target": "login.swapcard.com",
+          "type": "api"
+        },
+        {
+          "target": "eventorganizer-api.swapcard.com",
+          "type": "api"
+        },
+        {
+          "target": "app.swapcard.com",
+          "type": "web-application"
+        },
+        {
+          "target": "studio.swapcard.com",
+          "type": "web-application"
+        },
+        {
+          "target": "team.swapcard.com",
+          "type": "web-application"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/swapcard/id879488719",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "img.swapcard.com",
+          "type": "api"
+        },
+        {
+          "target": "t.swapcard.com",
+          "type": "api"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "By default all the endpoints that are not listed in the allowed scopes are out of scope of the program.",
+          "type": "other"
+        },
+        {
+          "target": "*dev.swapcard.com",
+          "type": "other"
+        },
+        {
+          "target": "page.swapcard.com",
+          "type": "other"
+        },
+        {
+          "target": "blog.swapcard.com (Hubspot)",
+          "type": "other"
+        },
+        {
+          "target": "aide.swapcard.com (Zoho)",
+          "type": "other"
+        },
+        {
+          "target": "help.swapcard.com (Zoho)",
+          "type": "other"
+        },
+        {
+          "target": "books.swapcard.com (Zoho)",
+          "type": "other"
+        },
+        {
+          "target": "l.swapcard.com",
+          "type": "other"
+        },
+        {
+          "target": "c.swapcard.com",
+          "type": "other"
+        },
+        {
+          "target": "sentry.swapcard.com (Except if you notice a miss-configuration)",
+          "type": "other"
+        },
+        {
+          "target": "survey.swapcard.com",
+          "type": "other"
+        },
+        {
+          "target": "www.swapcard.com (static corporate website)",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
     "id": "swiss-post",
     "name": "Swiss Post",
     "public": true,
@@ -1909,53 +2071,6 @@
         },
         {
           "target": "Other business units of the Telenor Group - including *.telenor.com",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
-    "id": "tousanticovid-bugbounty-program",
-    "name": "TousAntiCovid Bug Bounty program",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 0,
-    "max_bounty": 2000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "https://play.google.com/store/apps/details?id=fr.gouv.android.stopcovid",
-          "type": "mobile-application-android"
-        },
-        {
-          "target": "https://apps.apple.com/fr/app/stopcovid-france/id1511279125",
-          "type": "mobile-application-ios"
-        },
-        {
-          "target": "api.tousanticovid.gouv.fr",
-          "type": "api"
-        },
-        {
-          "target": "app.tousanticovid.gouv.fr",
-          "type": "api"
-        },
-        {
-          "target": "bonjour.tousanticovid.gouv.fr",
-          "type": "api"
-        },
-        {
-          "target": "https://qrcode.tousanticovid.gouv.fr",
-          "type": "web-application"
-        },
-        {
-          "target": "https://dcclight.tousanticovid.gouv.fr/api/v1/aggregate",
-          "type": "api"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "Everything that is not part of the scope",
           "type": "other"
         }
       ]
