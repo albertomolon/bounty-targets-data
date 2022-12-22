@@ -573,10 +573,6 @@
           "type": "web-application"
         },
         {
-          "target": "docs.datadome.co",
-          "type": "other"
-        },
-        {
           "target": "api-js.datadome.co",
           "type": "api"
         },
@@ -595,6 +591,10 @@
         {
           "target": "https://geo.captcha-delivery.com/contact-human",
           "type": "web-application"
+        },
+        {
+          "target": "https://customer-api.datadome.co",
+          "type": "api"
         }
       ],
       "out_of_scope": [
@@ -823,6 +823,10 @@
         {
           "target": "https://stage.emailreporting.service.echobox.com/",
           "type": "api"
+        },
+        {
+          "target": "https://login.echobox.dev/",
+          "type": "web-application"
         }
       ],
       "out_of_scope": [
@@ -887,6 +891,89 @@
         },
         {
           "target": "The  production environment (*.gouv.fr) is out of scope.",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "harman-international-public-bug-bounty",
+    "name": "Harman International Public Bug Bounty",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 100,
+    "max_bounty": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "Device: JBL Bar 300",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Bar 500",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Bar 700",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Bar 800",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Bar 1000",
+          "type": "other"
+        },
+        {
+          "target": "Device: JBL Bar 1300",
+          "type": "other"
+        },
+        {
+          "target": "a1ttqkupgmaxeg-ats.iot.us-east-1.amazonaws.com",
+          "type": "other"
+        },
+        {
+          "target": "a1ttqkupgmaxeg-ats.iot.ap-east-1.amazonaws.com",
+          "type": "other"
+        },
+        {
+          "target": "lsaconsumerevents2.onecloud.harman.com",
+          "type": "api"
+        },
+        {
+          "target": "lsaconsumerevents3.onecloud.harman.com",
+          "type": "api"
+        },
+        {
+          "target": "lsaconsumerevents1.onecloud.harman.com",
+          "type": "api"
+        },
+        {
+          "target": "events.onecloud.harman.com",
+          "type": "api"
+        },
+        {
+          "target": "ota-staging.onecloud.harman.com",
+          "type": "api"
+        },
+        {
+          "target": "ota.onecloud.harman.com",
+          "type": "api"
+        },
+        {
+          "target": "https://apps.apple.com/fr/app/jbl-one/id1610239857",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=com.jbl.oneapp&hl=fr&gl=US",
+          "type": "mobile-application-android"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "Anything not explicitly listed in the Scope section is Out-Of-Scope. For example, our e-commerce websites are out of scope in this program.",
           "type": "other"
         }
       ]
@@ -1083,30 +1170,6 @@
           "target": "In-scope subdomains that are running 3rd party services (i.e. SaaS). When in doubt, please raise a report to confirm the application is in scope",
           "type": "other"
         }
-      ]
-    }
-  },
-  {
-    "id": "matrixalm",
-    "name": "MatrixALM",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 50,
-    "max_bounty": 1500,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "hack1.mtrx.ovh",
-          "type": "other"
-        },
-        {
-          "target": "https://hackme.matrixreq.com",
-          "type": "web-application"
-        }
-      ],
-      "out_of_scope": [
-
       ]
     }
   },
@@ -1507,6 +1570,41 @@
         },
         {
           "target": "Attacks on assets not related to the application itself (like on our web page at https://olvid.io)",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ooredoo-qpsc-bug-bounty-program",
+    "name": "Ooredoo QPSC - Customer Portal Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://www.ooredoo.qa",
+          "type": "web-application"
+        },
+        {
+          "target": "https://mobile.ooredoo.qa",
+          "type": "mobile-application"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=qa.ooredoo.android&hl=en&gl=US",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "https://apps.apple.com/qa/app/ooredoo-qatar/id619828745",
+          "type": "mobile-application-ios"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
           "type": "other"
         }
       ]
@@ -2071,6 +2169,57 @@
         },
         {
           "target": "Other business units of the Telenor Group - including *.telenor.com",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vfs-global-bug-bounty-program",
+    "name": "VFS Global Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "www.vfsglobal.com [See Notes on Scope for clarification]",
+          "type": "web-application"
+        },
+        {
+          "target": "etimad.pk",
+          "type": "web-application"
+        },
+        {
+          "target": "agents.etimad.pk",
+          "type": "web-application"
+        },
+        {
+          "target": "www.vfstasheel.com",
+          "type": "web-application"
+        },
+        {
+          "target": "agents.vfstasheel.com",
+          "type": "web-application"
+        },
+        {
+          "target": "onevasco.com",
+          "type": "web-application"
+        },
+        {
+          "target": "www.vascoworldwide.net/ARMS",
+          "type": "web-application"
+        },
+        {
+          "target": "www.vascoworldwide.net/ARMS/visaConcierge",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All other VFS assets that are not listed above as in scope are automatically out of scope",
           "type": "other"
         }
       ]
