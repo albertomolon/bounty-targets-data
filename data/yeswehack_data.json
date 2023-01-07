@@ -898,7 +898,7 @@
   },
   {
     "id": "harman-international-public-bug-bounty",
-    "name": "Harman International Public Bug Bounty",
+    "name": "Harman International Lifestyle JBL",
     "public": true,
     "disabled": false,
     "managed": null,
@@ -1170,6 +1170,30 @@
           "target": "In-scope subdomains that are running 3rd party services (i.e. SaaS). When in doubt, please raise a report to confirm the application is in scope",
           "type": "other"
         }
+      ]
+    }
+  },
+  {
+    "id": "matrixalm",
+    "name": "MatrixALM",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "hack1.mtrx.ovh",
+          "type": "other"
+        },
+        {
+          "target": "https://hackme.matrixreq.com",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+
       ]
     }
   },
@@ -1954,6 +1978,10 @@
         {
           "target": "www.swapcard.com (static corporate website)",
           "type": "other"
+        },
+        {
+          "target": "Registration and ticketing feature scope",
+          "type": "other"
         }
       ]
     }
@@ -2373,33 +2401,6 @@
         },
         {
           "target": "Vulnerabilities reported on other services or applications are not allowed.",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
-    "id": "zte-products-bug-bounty-program",
-    "name": "ZTE Products Bug Bounty Program",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 30,
-    "max_bounty": 10000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "Products in Scope (see Program Rules for details)",
-          "type": "other"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "ZTE Devices not listed above",
-          "type": "other"
-        },
-        {
-          "target": "ZTE Web applications",
           "type": "other"
         }
       ]

@@ -622,13 +622,6 @@
     "targets": {
       "in_scope": [
         {
-          "target": "http://oss.bkk.fun",
-          "type": "Web",
-          "instruction": "BKEX Global APP",
-          "severity": "Critical",
-          "reward": "Bounty"
-        },
-        {
           "target": "www.bkex.com",
           "type": "Web",
           "instruction": "",
@@ -963,6 +956,61 @@
     }
   },
   {
+    "id": "/bitexen/bitexen-bugbounty-program",
+    "name": "Bitexen BugBounty Program",
+    "url": "https://hackenproof.com/bitexen/bitexen-bugbounty-program",
+    "archived": true,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "www.bitexen.com/*",
+          "type": "Web",
+          "instruction": "",
+          "severity": "None",
+          "reward": "Bounty"
+        },
+        {
+          "target": "bitexen.com/*",
+          "type": "Web",
+          "instruction": "",
+          "severity": "None",
+          "reward": "Bounty"
+        },
+        {
+          "target": "Bitexen (com.bitexen.exchange)",
+          "type": "Android",
+          "instruction": "",
+          "severity": "None",
+          "reward": "Bounty"
+        },
+        {
+          "target": "Bitexen (ID 1388036461)",
+          "type": "iOS",
+          "instruction": "",
+          "severity": "None",
+          "reward": "Bounty"
+        },
+        {
+          "target": "0xe6cc10ef4de1ccfb821c99c04abfe1859d8eab8f (BTXN) (ERC20)",
+          "type": "Protocol",
+          "instruction": "Smart Contract",
+          "severity": "None",
+          "reward": "Bounty"
+        },
+        {
+          "target": "0xbcf91e60a6719eb3e9308addf1f7c6185c2af889 (XNP) (ERC20)",
+          "type": "Protocol",
+          "instruction": "Smart Contract",
+          "severity": "None",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "id": "/bitkub/bitkub",
     "name": "Bitkub",
     "url": "https://hackenproof.com/bitkub/bitkub",
@@ -1088,6 +1136,46 @@
       ],
       "out_of_scope": [
 
+      ]
+    }
+  },
+  {
+    "id": "/coin98/coin98",
+    "name": "Coin98",
+    "url": "https://hackenproof.com/coin98/coin98",
+    "archived": false,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://play.google.com/store/apps/details?id=coin98.crypto.finance.media&pli=1",
+          "type": "Android",
+          "instruction": "",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "https://apps.apple.com/us/app/coin98-wallet/id1561969966",
+          "type": "iOS",
+          "instruction": "",
+          "severity": "Critical",
+          "reward": "Bounty"
+        },
+        {
+          "target": "*.coin98.com",
+          "type": "Web",
+          "instruction": "",
+          "severity": "Critical",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "search.coin98.com",
+          "type": "Web",
+          "instruction": "",
+          "severity": "None",
+          "reward": null
+        }
       ]
     }
   },
@@ -1323,6 +1411,13 @@
           "instruction": "https://core.app/",
           "severity": "Critical",
           "reward": "Bounty"
+        },
+        {
+          "target": "Core Android App",
+          "type": "Android",
+          "instruction": "https://play.google.com/store/apps/details?id=com.avaxwallet",
+          "severity": "Critical",
+          "reward": "Bounty"
         }
       ],
       "out_of_scope": [
@@ -1544,6 +1639,26 @@
         {
           "target": "*.dex-trade.com",
           "type": "Web",
+          "instruction": "",
+          "severity": "Critical",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
+    "id": "/dexalot/dexalot-smart-contracts",
+    "name": "Dexalot Smart Contracts",
+    "url": "https://hackenproof.com/dexalot/dexalot-smart-contracts",
+    "archived": false,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://github.com/Dexalot/contracts",
+          "type": "Smart Contract",
           "instruction": "",
           "severity": "Critical",
           "reward": "Bounty"
@@ -2082,6 +2197,46 @@
     }
   },
   {
+    "id": "/jojo/jojo-smart-contracts",
+    "name": "JOJO Smart Contracts",
+    "url": "https://hackenproof.com/jojo/jojo-smart-contracts",
+    "archived": false,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://github.com/JOJOexchange/smart-contract-EVM",
+          "type": "Smart Contract",
+          "instruction": "",
+          "severity": "Critical",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
+    "id": "/jojo/jojo-web",
+    "name": "JOJO Web",
+    "url": "https://hackenproof.com/jojo/jojo-web",
+    "archived": false,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://jojo.exchange/",
+          "type": "Web",
+          "instruction": "",
+          "severity": "Critical",
+          "reward": "Bounty"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "id": "/kalmar/kalmar",
     "name": "Kalmar",
     "url": "https://hackenproof.com/kalmar/kalmar",
@@ -2494,15 +2649,15 @@
           "target": "MacOS App",
           "type": "Other",
           "instruction": "https://www.okx.com/download",
-          "severity": "High",
-          "reward": "Bounty"
+          "severity": "None",
+          "reward": "Reputation"
         },
         {
           "target": "WindowsOS App",
           "type": "Other",
           "instruction": "https://www.okx.com/download",
-          "severity": "High",
-          "reward": "Bounty"
+          "severity": "None",
+          "reward": "Reputation"
         }
       ],
       "out_of_scope": [
@@ -2638,6 +2793,20 @@
           "severity": "Critical",
           "reward": "Bounty"
         }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
+    "id": "/pbc-applications/partisia-blockchain-applications-bug-bounty",
+    "name": "Partisia Blockchain Applications Bug Bounty",
+    "url": "https://hackenproof.com/pbc-applications/partisia-blockchain-applications-bug-bounty",
+    "archived": true,
+    "targets": {
+      "in_scope": [
+
       ],
       "out_of_scope": [
 
@@ -2809,9 +2978,9 @@
     }
   },
   {
-    "id": "/fox-foundation/shapeshift",
+    "id": "/shape-shift/shapeshift",
     "name": "ShapeShift",
-    "url": "https://hackenproof.com/fox-foundation/shapeshift",
+    "url": "https://hackenproof.com/shape-shift/shapeshift",
     "archived": false,
     "targets": {
       "in_scope": [
@@ -3014,7 +3183,7 @@
           "reward": "Bounty"
         },
         {
-          "target": "https://github.com/capsule-corp-ternoa/ternoa-bridge-core",
+          "target": "https://bridge.ternoa.network/",
           "type": "Protocol",
           "instruction": "",
           "severity": "Critical",
@@ -3403,53 +3572,6 @@
       ],
       "out_of_scope": [
 
-      ]
-    }
-  },
-  {
-    "id": "/zb/zb-web",
-    "name": "ZB Web",
-    "url": "https://hackenproof.com/zb/zb-web",
-    "archived": false,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "www.zb.com",
-          "type": "Web",
-          "instruction": "",
-          "severity": "Critical",
-          "reward": "Bounty"
-        },
-        {
-          "target": "https://www.zb.com/en/api",
-          "type": "Web3",
-          "instruction": "",
-          "severity": "Critical",
-          "reward": "Bounty"
-        },
-        {
-          "target": "https://play.google.com/store/apps/details?id=com.zb.global",
-          "type": "Android",
-          "instruction": "",
-          "severity": "Critical",
-          "reward": "Bounty"
-        },
-        {
-          "target": "https://apps.apple.com/us/app/zb-pro/id1569949633",
-          "type": "iOS",
-          "instruction": "",
-          "severity": "Critical",
-          "reward": "Bounty"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "https://www.zbex.pro",
-          "type": "Web",
-          "instruction": "",
-          "severity": "Critical",
-          "reward": null
-        }
       ]
     }
   }

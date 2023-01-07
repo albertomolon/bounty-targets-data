@@ -823,6 +823,14 @@
           "target": "FishEye"
         },
         {
+          "type": "other",
+          "target": "Forge Platform"
+        },
+        {
+          "type": "api",
+          "target": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)"
+        },
+        {
           "type": "android",
           "target": "Jira Cloud Mobile App for Android"
         },
@@ -873,6 +881,10 @@
         {
           "type": "other",
           "target": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)"
+        },
+        {
+          "type": "other",
+          "target": "https://www.npmjs.com/package/@forge/cli"
         }
       ],
       "out_of_scope": [
@@ -912,33 +924,6 @@
           "type": "website",
           "target": "shop.atlassian.com"
         }
-      ]
-    }
-  },
-  {
-    "name": "Atlassian Forge Platform",
-    "url": "https://bugcrowd.com/atlassian-forge",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "full",
-    "max_payout": 6000,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "other",
-          "target": "Forge Platform"
-        },
-        {
-          "type": "api",
-          "target": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)"
-        },
-        {
-          "type": "other",
-          "target": "https://www.npmjs.com/package/@forge/cli"
-        }
-      ],
-      "out_of_scope": [
-
       ]
     }
   },
@@ -2111,6 +2096,25 @@
     }
   },
   {
+    "name": "Bureau of Indian Affairs",
+    "url": "https://bugcrowd.com/bia-vdp",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.bia.gov"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "The Bureau of Indian Education Vulnerability Disclosure Program",
     "url": "https://bugcrowd.com/bie-vdp",
     "allows_disclosure": true,
@@ -2121,7 +2125,7 @@
       "in_scope": [
         {
           "type": "website",
-          "target": "*.bie.edu"
+          "target": "www.bie.edu"
         }
       ],
       "out_of_scope": [
@@ -3284,11 +3288,7 @@
           "target": "*.network-auth.com"
         },
         {
-          "type": "api",
-          "target": "API keys originating from or accessing Cisco Meraki infrastructure"
-        },
-        {
-          "type": "other",
+          "type": "ios",
           "target": "Cisco Meraki Dashboard Mobile Application (iOS and Android)"
         },
         {
@@ -3320,6 +3320,10 @@
           "target": "Cisco Meraki Z Series (Z1,Z3(C))"
         },
         {
+          "type": "hardware",
+          "target": "Meraki MX Security Appliances"
+        },
+        {
           "type": "website",
           "target": "meraki.cisco.com"
         }
@@ -3330,8 +3334,8 @@
           "target": "Cisco Meraki MC Phones"
         },
         {
-          "type": "api",
-          "target": "Customer API Keys"
+          "type": "hardware",
+          "target": "Meraki MR Access Points"
         },
         {
           "type": "website",
@@ -3797,7 +3801,7 @@
     "allows_disclosure": true,
     "managed_by_bugcrowd": true,
     "safe_harbor": "none",
-    "max_payout": 2500,
+    "max_payout": 5000,
     "targets": {
       "in_scope": [
         {
@@ -4240,6 +4244,29 @@
           "type": "website",
           "target": "taxsupport.creditkarma.com"
         }
+      ]
+    }
+  },
+  {
+    "name": "U.S. Chemical Safety and Hazard Investigation Board - Vulnerability Disclosure Program",
+    "url": "https://bugcrowd.com/csb-vdp",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "www.csb.gov"
+        },
+        {
+          "type": "website",
+          "target": "www.safetyvideos.gov"
+        }
+      ],
+      "out_of_scope": [
+
       ]
     }
   },
@@ -6503,6 +6530,44 @@
     }
   },
   {
+    "name": "Hostopia Australias Vulnerability Disclosure Program",
+    "url": "https://bugcrowd.com/hostopia-vdp",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://billing.anchor.com.au"
+        },
+        {
+          "type": "website",
+          "target": "https://billing.digitalpacific.com.au"
+        },
+        {
+          "type": "website",
+          "target": "https://control.crucial.com.au/"
+        },
+        {
+          "type": "website",
+          "target": "https://control.web24.com.au"
+        },
+        {
+          "type": "website",
+          "target": "https://members.panthur.com.au"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "Anything not explicitly listed as in scope\t"
+        }
+      ]
+    }
+  },
+  {
     "name": "HubSpot",
     "url": "https://bugcrowd.com/hubspot",
     "allows_disclosure": true,
@@ -6796,6 +6861,10 @@
       "in_scope": [
         {
           "type": "other",
+          "target": "Any host/web property verified to be owned by Indeed"
+        },
+        {
+          "type": "other",
           "target": "https://*.indeed.com"
         },
         {
@@ -6804,11 +6873,15 @@
         },
         {
           "type": "website",
-          "target": "https://accounts.indeed.com"
+          "target": "https://account.indeed.com"
         },
         {
           "type": "website",
           "target": "https://analytics.indeed.com"
+        },
+        {
+          "type": "api",
+          "target": "https://apis.indeed.com/graphql"
         },
         {
           "type": "ios",
@@ -6820,14 +6893,6 @@
         },
         {
           "type": "website",
-          "target": "https://central.indeed.com"
-        },
-        {
-          "type": "other",
-          "target": "https://chrome.google.com/webstore/detail/zapinfo/kiodpphbmnmcmnfgpnmkkhmkllnlflef"
-        },
-        {
-          "type": "website",
           "target": "https://employer.simplyhired-staging.com"
         },
         {
@@ -6836,7 +6901,11 @@
         },
         {
           "type": "website",
-          "target": "https://events.indeed.com"
+          "target": "https://interviews.indeed.com"
+        },
+        {
+          "type": "website",
+          "target": "https://m5.apply.indeed.com"
         },
         {
           "type": "website",
@@ -6844,11 +6913,15 @@
         },
         {
           "type": "website",
-          "target": "https://my.zapinfo.io"
+          "target": "https://my.zapinfo.io (Chrome Extension)"
         },
         {
           "type": "android",
           "target": "https://play.google.com/store/apps/details?id=com.indeed.android.jobsearch"
+        },
+        {
+          "type": "website",
+          "target": "https://profile.indeed.com"
         },
         {
           "type": "website",
@@ -6870,7 +6943,19 @@
       "out_of_scope": [
         {
           "type": "website",
+          "target": "https://*.chatbot.indeed.com"
+        },
+        {
+          "type": "website",
+          "target": "https://*.simplyhired.com (Production Applications)"
+        },
+        {
+          "type": "website",
           "target": "https://hr.simplyhired-staging.com"
+        },
+        {
+          "type": "website",
+          "target": "https://t.indeed.com (Open Redirects)"
         }
       ]
     }
@@ -7565,33 +7650,6 @@
         {
           "type": "website",
           "target": "https://bugcrowd-pub.bounty.kiteworks.dev/"
-        }
-      ],
-      "out_of_scope": [
-
-      ]
-    }
-  },
-  {
-    "name": "Lamoda",
-    "url": "https://bugcrowd.com/lamoda",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "none",
-    "max_payout": 1600,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "api",
-          "target": "http://photouploader.lamoda.ru/"
-        },
-        {
-          "type": "api",
-          "target": "https://api.lamoda.ru"
-        },
-        {
-          "type": "website",
-          "target": "https://www.lamoda.ru"
         }
       ],
       "out_of_scope": [
@@ -8908,6 +8966,14 @@
         {
           "type": "website",
           "target": "development.naspers.com"
+        },
+        {
+          "type": "other",
+          "target": "https://52.151.73.49/"
+        },
+        {
+          "type": "website",
+          "target": "https://learn.myacademy.io/"
         }
       ]
     }
@@ -9973,8 +10039,8 @@
     }
   },
   {
-    "name": "OLX Group",
-    "url": "https://bugcrowd.com/olxgroup",
+    "name": "OLX EMEA",
+    "url": "https://bugcrowd.com/olx-emea-vdp",
     "allows_disclosure": false,
     "managed_by_bugcrowd": true,
     "safe_harbor": "full",
@@ -9991,6 +10057,10 @@
         },
         {
           "type": "website",
+          "target": "*.olx.pt"
+        },
+        {
+          "type": "website",
           "target": "*.otodom.pl"
         },
         {
@@ -10003,35 +10073,66 @@
         },
         {
           "type": "website",
-          "target": "https://olx.pt"
-        },
-        {
-          "type": "website",
-          "target": "https://www.letgo.com"
-        },
-        {
-          "type": "website",
-          "target": "https://www.olx.in"
-        },
-        {
-          "type": "website",
-          "target": "https://www.olxautos.cl/"
-        },
-        {
-          "type": "website",
-          "target": "https://www.olxautos.com.mx/"
-        },
-        {
-          "type": "website",
-          "target": "https://www.olxautos.com.pe/"
-        },
-        {
-          "type": "website",
-          "target": "https://www.otoplus.com/"
-        },
-        {
-          "type": "website",
           "target": "payments.olx.com"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
+    "name": "OLX Autos",
+    "url": "https://bugcrowd.com/olxgroup",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.321sprzedane.pl"
+        },
+        {
+          "type": "website",
+          "target": "*.letgo.com"
+        },
+        {
+          "type": "website",
+          "target": "*.olx-autos.com.ar"
+        },
+        {
+          "type": "website",
+          "target": "*.olx.id"
+        },
+        {
+          "type": "website",
+          "target": "*.olx.in"
+        },
+        {
+          "type": "website",
+          "target": "*.olxautos.cl"
+        },
+        {
+          "type": "website",
+          "target": "*.olxautos.co.id"
+        },
+        {
+          "type": "website",
+          "target": "*.olxautos.com.co"
+        },
+        {
+          "type": "website",
+          "target": "*.olxautos.com.mx"
+        },
+        {
+          "type": "website",
+          "target": "*.olxautos.in"
+        },
+        {
+          "type": "website",
+          "target": "*.otoplus.com"
         }
       ],
       "out_of_scope": [
@@ -10468,19 +10569,15 @@
       "out_of_scope": [
         {
           "type": "website",
+          "target": "107.167.127.4{0,1}"
+        },
+        {
+          "type": "website",
           "target": "accountsstage.yoyogames.com"
         },
         {
           "type": "website",
           "target": "admanager.opera.com"
-        },
-        {
-          "type": "website",
-          "target": "app.opera.com"
-        },
-        {
-          "type": "website",
-          "target": "apps.opera.com"
         },
         {
           "type": "website",
@@ -10513,6 +10610,22 @@
         {
           "type": "website",
           "target": "mobilestore.opera.com"
+        },
+        {
+          "type": "website",
+          "target": "s2{1,2}-05-08-v09.opera-mini.net"
+        },
+        {
+          "type": "website",
+          "target": "verizon-us-lvs-ashburn.opera-mini.net"
+        },
+        {
+          "type": "website",
+          "target": "verizon-us-lvs-seattle.opera-mini.net"
+        },
+        {
+          "type": "website",
+          "target": "verizon-us-seattle.opera-mini.net"
         }
       ]
     }
@@ -15386,6 +15499,22 @@
         },
         {
           "type": "website",
+          "target": "https://consumer.m-mart.store/log-in/"
+        },
+        {
+          "type": "website",
+          "target": "https://fr.maille.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://icecreamshopus.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://lakmeindia.com/"
+        },
+        {
+          "type": "website",
           "target": "https://magento.volle-truhe.at/"
         },
         {
@@ -15398,11 +15527,19 @@
         },
         {
           "type": "website",
+          "target": "https://nasuafesta.kibon.com.br/mcom/#/index"
+        },
+        {
+          "type": "website",
           "target": "https://online.frisko.dk/B2B"
         },
         {
           "type": "website",
           "target": "https://online.frisko.dk/customer/account/login/"
+        },
+        {
+          "type": "website",
+          "target": "https://personalisedpgtips.co.uk/products/pg-tips-customisable-mug"
         },
         {
           "type": "website",
@@ -15434,7 +15571,27 @@
         },
         {
           "type": "website",
+          "target": "https://shopee.com.my/unishop.my"
+        },
+        {
+          "type": "website",
+          "target": "https://skinsei.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://sklepfirmowyunilever.pl/access/"
+        },
+        {
+          "type": "website",
+          "target": "https://theushop.ca/"
+        },
+        {
+          "type": "website",
           "target": "https://tryunilever.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://u-shop.vn/"
         },
         {
           "type": "website",
@@ -15443,6 +15600,10 @@
         {
           "type": "website",
           "target": "https://uclub.unilever.tw/"
+        },
+        {
+          "type": "website",
+          "target": "https://uk.maille.com/"
         },
         {
           "type": "website",
@@ -15459,6 +15620,10 @@
         {
           "type": "website",
           "target": "https://unishopus.com/account/login?checkout_url=/"
+        },
+        {
+          "type": "website",
+          "target": "https://us.maille.com/"
         },
         {
           "type": "website",
@@ -15534,11 +15699,19 @@
         },
         {
           "type": "website",
+          "target": "https://www.clubdebeneficios.com/"
+        },
+        {
+          "type": "website",
           "target": "https://www.hellmanns.com/es/home.html"
         },
         {
           "type": "website",
           "target": "https://www.marmite.co.uk/the-marmite-shop.html"
+        },
+        {
+          "type": "website",
+          "target": "https://www.mimarketclub.com/"
         },
         {
           "type": "website",
@@ -15814,6 +15987,14 @@
         },
         {
           "type": "website",
+          "target": "https://www.tajmahalteahouse.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.theushop.in/"
+        },
+        {
+          "type": "website",
           "target": "https://www.tresemme.com/ph/home.html"
         },
         {
@@ -15846,6 +16027,10 @@
         },
         {
           "type": "website",
+          "target": "https://www.u-shop.co.il"
+        },
+        {
+          "type": "website",
           "target": "https://www.ufs.com/"
         },
         {
@@ -15854,7 +16039,15 @@
         },
         {
           "type": "website",
+          "target": "https://www.unileverencasa.cl"
+        },
+        {
+          "type": "website",
           "target": "https://www.unileverlife.com/"
+        },
+        {
+          "type": "website",
+          "target": "https://www.unishopturkiye.com/"
         },
         {
           "type": "website",
@@ -16779,6 +16972,25 @@
     }
   },
   {
+    "name": "U.S. Geological Survey",
+    "url": "https://bugcrowd.com/usgs-vdp",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 0,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.usgs.gov"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "name": "Department of Veterans Affairs",
     "url": "https://bugcrowd.com/va-vdp",
     "allows_disclosure": false,
@@ -17668,7 +17880,7 @@
   },
   {
     "name": "Wyze Bug Bounty",
-    "url": "https://bugcrowd.com/wyzembb",
+    "url": "https://bugcrowd.com/wyze",
     "allows_disclosure": true,
     "managed_by_bugcrowd": true,
     "safe_harbor": "none",
